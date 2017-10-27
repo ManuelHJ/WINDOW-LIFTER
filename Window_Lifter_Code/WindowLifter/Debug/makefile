@@ -51,7 +51,7 @@ WindowsLifter.siz \
 all: warning-messages explicit-dependencies WindowsLifter.elf secondary-outputs
 
 # Tool invocations
-WindowsLifter.elf: $(OBJS) C:/Users/uidn8311/Desktop/WindowLifter/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
+WindowsLifter.elf: $(OBJS) C:/Users/uidn8311/Desktop/Window_Lifter_Repository/WINDOW-LIFTER/Window_Lifter_Code/WindowLifter/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Executing target #11 $@'
 	@echo 'Invoking: Standard S32DS C Linker'

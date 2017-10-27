@@ -2,7 +2,7 @@
 -I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/arm"
 -I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_Runtime/include"
 -I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_Runtime/include/arm"
--I"C:/Users/uidn8311/Desktop/WindowLifter/include"
+-I"C:/Users/uidn8311/Desktop/Window_Lifter_Repository/WINDOW-LIFTER/Window_Lifter_Code/WindowLifter/include"
 -x assembler-with-cpp
 -O0
 -g3

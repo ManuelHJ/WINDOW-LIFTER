@@ -26,8 +26,20 @@ int main(void) {
  IndicatorsInit();
  ButtonsInit ();
 
+ PTD-> PSOR |= 1<<PTD0; /* Set Output off */ //Need to SET the LEDS (The default value is Clear (ON))
+ PTD-> PSOR |= 1<<PTD16; /* Set Output off */ //Need to SET the LEDS (The default value is Clear (ON))
+ PTD-> PSOR |= 1<<PTD15; /* Set Output off */ //Need to SET the LEDS (The default value is Clear (ON))
+
  for (;;) {
 
+	 	 if (PUSHUP)
+	 	 {
+	 		PTD-> PCOR |= 1<<PTD0; /* Clear Output on */
+	 	 }
+	 	 else
+	 	 {
+	 		PTD-> PSOR |= 1<<PTD0; /* Set Output off */
+	 	 }
 
  }
 }
