@@ -1,11 +1,7 @@
-Project_Settings/Startup_Code/startup.o: \
- ../Project_Settings/Startup_Code/startup.c \
+src/timer10ms.o: ../src/timer10ms.c \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/lib_c99.prefix \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/common.prefix \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_c_version.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/startup.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/device_registers.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/s32_core_cm4.h \
  C:/Users/uidn8311/Desktop/WindowsLifter/include/S32K144.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/stdint.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ansi_parms.h \
@@ -16,21 +12,13 @@ Project_Settings/Startup_Code/startup.o: \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/limits_api.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/S32K144_features.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/devassert.h \
- C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/stdbool.h
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/timer10ms\ .h
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/lib_c99.prefix:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/common.prefix:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_c_version.h:
-
-C:/Users/uidn8311/Desktop/WindowsLifter/include/startup.h:
-
-C:/Users/uidn8311/Desktop/WindowsLifter/include/device_registers.h:
-
-C:/Users/uidn8311/Desktop/WindowsLifter/include/s32_core_cm4.h:
 
 C:/Users/uidn8311/Desktop/WindowsLifter/include/S32K144.h:
 
@@ -52,8 +40,4 @@ C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h:
 
-C:/Users/uidn8311/Desktop/WindowsLifter/include/S32K144_features.h:
-
-C:/Users/uidn8311/Desktop/WindowsLifter/include/devassert.h:
-
-C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/stdbool.h:
+C:/Users/uidn8311/Desktop/WindowsLifter/include/timer10ms\ .h:

@@ -2,7 +2,7 @@ src/LEDS_IDLE.o: ../src/LEDS_IDLE.c \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/lib_c99.prefix \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/common.prefix \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_c_version.h \
- C:/Users/uidn8311/Desktop/WindowLifter/include/S32K144.h \
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/S32K144.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/stdint.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ansi_parms.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewlGlobals.h \
@@ -12,8 +12,8 @@ src/LEDS_IDLE.o: ../src/LEDS_IDLE.c \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/limits_api.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h \
- C:/Users/uidn8311/Desktop/WindowLifter/include/LEDS_IDLE.h \
- C:/Users/uidn8311/Desktop/WindowLifter/include/initproyect.h
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/LEDS_IDLE.h \
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/lib_c99.prefix:
 
@@ -21,7 +21,7 @@ C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/common.prefix:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_c_version.h:
 
-C:/Users/uidn8311/Desktop/WindowLifter/include/S32K144.h:
+C:/Users/uidn8311/Desktop/WindowsLifter/include/S32K144.h:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/stdint.h:
 
@@ -41,6 +41,6 @@ C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h:
 
-C:/Users/uidn8311/Desktop/WindowLifter/include/LEDS_IDLE.h:
+C:/Users/uidn8311/Desktop/WindowsLifter/include/LEDS_IDLE.h:
 
-C:/Users/uidn8311/Desktop/WindowLifter/include/initproyect.h:
+C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h:
