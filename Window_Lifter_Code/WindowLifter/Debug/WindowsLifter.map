@@ -197,16 +197,34 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/Mode_Routine.o
  .data          0x00000000        0x0 ./src/Mode_Routine.o
  .bss           0x00000000        0x0 ./src/Mode_Routine.o
- .text.Down_Mode_Routine
-                0x00000000       0xe8 ./src/Mode_Routine.o
- .text.Up_Mode_Routine
-                0x00000000       0xf4 ./src/Mode_Routine.o
- .debug_info    0x00000000      0x147 ./src/Mode_Routine.o
- .debug_abbrev  0x00000000       0xbb ./src/Mode_Routine.o
+ .bss.lpit0_ch0_flag_counter
+                0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.lpit0_ch1_flag_counter
+                0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.one_touch_mode_flag_up
+                0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.manual_mode_flag_up
+                0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.level     0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.pushup    0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.pushdown  0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.push_button_pressed
+                0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.pushup1   0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.counter   0x00000000        0x4 ./src/Mode_Routine.o
+ .bss.flag_down
+                0x00000000        0x4 ./src/Mode_Routine.o
+ .text.WDOG_disable
+                0x00000000       0x2c ./src/Mode_Routine.o
+ .text.main     0x00000000      0x4c4 ./src/Mode_Routine.o
+ .text.LPIT0_Ch0_IRQHandler
+                0x00000000       0x38 ./src/Mode_Routine.o
+ .debug_info    0x00000000      0x32d ./src/Mode_Routine.o
+ .debug_abbrev  0x00000000       0xed ./src/Mode_Routine.o
  .debug_aranges
-                0x00000000       0x28 ./src/Mode_Routine.o
- .debug_ranges  0x00000000       0x18 ./src/Mode_Routine.o
- .debug_macro   0x00000000       0xb3 ./src/Mode_Routine.o
+                0x00000000       0x30 ./src/Mode_Routine.o
+ .debug_ranges  0x00000000       0x20 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0xbf ./src/Mode_Routine.o
  .debug_macro   0x00000000      0x868 ./src/Mode_Routine.o
  .debug_macro   0x00000000       0x52 ./src/Mode_Routine.o
  .debug_macro   0x00000000       0xa0 ./src/Mode_Routine.o
@@ -222,10 +240,10 @@ Discarded input sections
  .debug_macro   0x00000000       0x58 ./src/Mode_Routine.o
  .debug_macro   0x00000000     0xdf8d ./src/Mode_Routine.o
  .debug_macro   0x00000000       0x88 ./src/Mode_Routine.o
- .debug_line    0x00000000      0x20f ./src/Mode_Routine.o
- .debug_str     0x00000000    0x5dd9a ./src/Mode_Routine.o
+ .debug_line    0x00000000      0x37e ./src/Mode_Routine.o
+ .debug_str     0x00000000    0x5dec5 ./src/Mode_Routine.o
  .comment       0x00000000       0x71 ./src/Mode_Routine.o
- .debug_frame   0x00000000       0x60 ./src/Mode_Routine.o
+ .debug_frame   0x00000000       0x6c ./src/Mode_Routine.o
  .ARM.attributes
                 0x00000000       0x33 ./src/Mode_Routine.o
  .group         0x00000000        0x8 ./src/LEDS_IDLE.o
