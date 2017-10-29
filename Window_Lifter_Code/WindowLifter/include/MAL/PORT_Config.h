@@ -1,0 +1,13 @@
+#ifndef MAL_PORT_CONFIG_H_
+#define MAL_PORT_CONFIG_H_
+
+#include "S32K144.h"
+#include "MAL/Definitions.h"
+
+//void set_PORTA(T_ULONG PIN,T_ULONG DIR);
+void SET_PORTB(T_ULONG PIN,T_ULONG DIR);
+void SET_PORTC(T_ULONG PIN,T_ULONG DIR);
+void SET_PORTD(T_ULONG PIN,T_ULONG DIR);
+void SET_PORTE(T_ULONG PIN,T_ULONG DIR);
+
+#endif /* MAL_PORT_CONFIG_H_ */

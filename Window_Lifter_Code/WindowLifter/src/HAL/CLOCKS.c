@@ -1,0 +1,7 @@
+#include "HAL/CLOCKS.h"
+
+void FREQ_Config(){
+	SOSC_INIT_8MHZ();
+	SPLL_INIT_160MHZ();
+	NORMAL_RUN_MODE_80MHZ();
+}

@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 10
+#Progress monitor hint: 19
 first : all
 -include ../makefile.init
 
@@ -16,6 +16,9 @@ RM := rm -rf
 -include subdir.mk
 -include Project_Settings/Linker_Files/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
+-include src/APP/subdir.mk
+-include src/HAL/subdir.mk
+-include src/MAL/subdir.mk
 -include src/subdir.mk
 -include objects.mk
 
@@ -53,14 +56,14 @@ all: warning-messages explicit-dependencies WindowsLifter.elf secondary-outputs
 # Tool invocations
 WindowsLifter.elf: $(OBJS) C:/Users/uidn8311/Desktop/WindowsLifter/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
-	@echo 'Executing target #11 $@'
+	@echo 'Executing target #20 $@'
 	@echo 'Invoking: Standard S32DS C Linker'
 	arm-none-eabi-gcc -o "WindowsLifter.elf" "@WindowsLifter.args"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 WindowsLifter.siz: $(EXECUTABLES)
-	@echo 'Executing target #12 $@'
+	@echo 'Executing target #21 $@'
 	@echo 'Invoking: Standard S32DS Print Size'
 	arm-none-eabi-size --format=berkeley $(EXECUTABLES)
 	@echo 'Finished building: $@'

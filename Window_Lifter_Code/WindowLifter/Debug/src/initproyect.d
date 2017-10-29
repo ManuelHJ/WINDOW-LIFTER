@@ -12,7 +12,7 @@ src/initproyect.o: ../src/initproyect.c \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/limits_api.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/HAL/initproyect.h
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/lib_c99.prefix:
 
@@ -40,4 +40,4 @@ C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h:
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h:
 
-C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h:
+C:/Users/uidn8311/Desktop/WindowsLifter/include/HAL/initproyect.h:

@@ -13,7 +13,8 @@ src/Mode_Routine.o: ../src/Mode_Routine.c \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/ewl_lib_ext1.h \
  C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h \
  C:/Users/uidn8311/Desktop/WindowsLifter/include/Mode_Routine.h \
- C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h \
+ C:/Users/uidn8311/Desktop/WindowsLifter/include/MAL/Definitions.h
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/lib_c99.prefix:
 
@@ -44,3 +45,5 @@ C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/wchar_t.h:
 C:/Users/uidn8311/Desktop/WindowsLifter/include/Mode_Routine.h:
 
 C:/Users/uidn8311/Desktop/WindowsLifter/include/initproyect.h:
+
+C:/Users/uidn8311/Desktop/WindowsLifter/include/MAL/Definitions.h:

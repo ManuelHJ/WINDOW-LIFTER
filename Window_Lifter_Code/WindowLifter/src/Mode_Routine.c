@@ -1,6 +1,7 @@
 #include "S32K144.h" /* include peripheral declarations S32K144 */
 #include "Mode_Routine.h"
 #include "initproyect.h"
+#include "MAL/Definitions.h"
 
 
 void Down_Mode_Routine (int *window_level)
