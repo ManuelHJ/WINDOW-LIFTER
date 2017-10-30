@@ -159,7 +159,7 @@ void ButtonsInit (void){
  PTC->PDDR &= ~(1<<PTC13); /* Port C13: Data Direction= input (default) */
  PORTC->PCR[PTC13] = 0x00000110; /* Port C12: MUX = GPIO, input filter enabled */
 
- PTD->PDDR &= ~(1<<PTD7); /* Port C13: Data Direction= input (default) */
+ PTD->PDDR &= ~(1<<PTD7); /* Port D7: Data Direction= input (default) */
  PORTD->PCR[PTD7] = 0x00000110; /* Port C12: MUX = GPIO, input filter enabled */
 
 }
@@ -175,8 +175,6 @@ void LPIT0_init (void) {
  LPIT0->MIER = 0x00000001; /* TIE0=1: Timer Interrupt Enabled fot Chan 0 */
  LPIT0->TMR[0].TVAL = 4000000; /* Chan 0 Timeout period: clocks */ //1 segundo es 40000000 POR LO QUE 100 ms es 4000000
  LPIT0->TMR[0].TCTRL = 0x00000000; /* T_EN=1: Timer channel is enabled 0x00000001 */
- LPIT0->TMR[1].TVAL = 4000000;
- LPIT0->TMR[1].TCTRL = 0x00000000;
 
  /* CHAIN=0: channel chaining is disabled */
 /* MODE=0: 32 periodic counter mode */
