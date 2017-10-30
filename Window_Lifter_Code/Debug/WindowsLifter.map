@@ -1,0 +1,1573 @@
+Archive member included because of file (symbol)
+
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (exit)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (memset)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o) (__fill_mem)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (__init_cpp)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o) (__destroy_global_chain)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (__copy_rom_sections_to_ram)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .text.__thumb_startup
+                0x00000000       0x3c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .bss.argv      0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_info    0x00000000      0x144 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_abbrev  0x00000000       0xc0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_aranges
+                0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_line    0x00000000       0x68 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_str     0x00000000      0x270 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_frame   0x00000000       0x30 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/initproyect.o
+ .text          0x00000000        0x0 ./src/initproyect.o
+ .data          0x00000000        0x0 ./src/initproyect.o
+ .bss           0x00000000        0x0 ./src/initproyect.o
+ .debug_macro   0x00000000      0x868 ./src/initproyect.o
+ .debug_macro   0x00000000       0x52 ./src/initproyect.o
+ .debug_macro   0x00000000       0xa0 ./src/initproyect.o
+ .debug_macro   0x00000000       0x16 ./src/initproyect.o
+ .debug_macro   0x00000000       0x19 ./src/initproyect.o
+ .debug_macro   0x00000000       0x64 ./src/initproyect.o
+ .debug_macro   0x00000000      0x185 ./src/initproyect.o
+ .debug_macro   0x00000000      0x140 ./src/initproyect.o
+ .debug_macro   0x00000000       0x9d ./src/initproyect.o
+ .debug_macro   0x00000000       0x10 ./src/initproyect.o
+ .debug_macro   0x00000000      0x15b ./src/initproyect.o
+ .debug_macro   0x00000000       0x28 ./src/initproyect.o
+ .debug_macro   0x00000000       0x58 ./src/initproyect.o
+ .debug_macro   0x00000000     0xdf8d ./src/initproyect.o
+ .debug_macro   0x00000000       0x8e ./src/initproyect.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/Mode_Routine.o
+ .text          0x00000000        0x0 ./src/Mode_Routine.o
+ .data          0x00000000        0x0 ./src/Mode_Routine.o
+ .bss           0x00000000        0x0 ./src/Mode_Routine.o
+ .debug_macro   0x00000000      0x868 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x52 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0xa0 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x16 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x19 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x64 ./src/Mode_Routine.o
+ .debug_macro   0x00000000      0x185 ./src/Mode_Routine.o
+ .debug_macro   0x00000000      0x140 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x9d ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x10 ./src/Mode_Routine.o
+ .debug_macro   0x00000000      0x15b ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x28 ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x58 ./src/Mode_Routine.o
+ .debug_macro   0x00000000     0xdf8d ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x8e ./src/Mode_Routine.o
+ .debug_macro   0x00000000       0x10 ./src/Mode_Routine.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time400ms.o
+ .text          0x00000000        0x0 ./src/MAL/time400ms.o
+ .data          0x00000000        0x0 ./src/MAL/time400ms.o
+ .bss           0x00000000        0x0 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/time400ms.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/time400ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/time100ms.o
+ .text          0x00000000        0x0 ./src/MAL/time100ms.o
+ .data          0x00000000        0x0 ./src/MAL/time100ms.o
+ .bss           0x00000000        0x0 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/time100ms.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/time100ms.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/WDOG_Config.o
+ .text          0x00000000        0x0 ./src/MAL/WDOG_Config.o
+ .data          0x00000000        0x0 ./src/MAL/WDOG_Config.o
+ .bss           0x00000000        0x0 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/WDOG_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/WDOG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/SCG_Config.o
+ .text          0x00000000        0x0 ./src/MAL/SCG_Config.o
+ .data          0x00000000        0x0 ./src/MAL/SCG_Config.o
+ .bss           0x00000000        0x0 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/SCG_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/SCG_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PORT_Config.o
+ .text          0x00000000        0x0 ./src/MAL/PORT_Config.o
+ .data          0x00000000        0x0 ./src/MAL/PORT_Config.o
+ .bss           0x00000000        0x0 ./src/MAL/PORT_Config.o
+ .text.SET_PORTB
+                0x00000000       0x24 ./src/MAL/PORT_Config.o
+ .text.SET_PORTC
+                0x00000000       0x24 ./src/MAL/PORT_Config.o
+ .text.SET_PORTD
+                0x00000000       0x24 ./src/MAL/PORT_Config.o
+ .text.SET_PORTE
+                0x00000000       0x24 ./src/MAL/PORT_Config.o
+ .debug_info    0x00000000      0x221 ./src/MAL/PORT_Config.o
+ .debug_abbrev  0x00000000       0xcc ./src/MAL/PORT_Config.o
+ .debug_aranges
+                0x00000000       0x38 ./src/MAL/PORT_Config.o
+ .debug_ranges  0x00000000       0x28 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0xb9 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/PORT_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/PORT_Config.o
+ .debug_line    0x00000000      0x23c ./src/MAL/PORT_Config.o
+ .debug_str     0x00000000    0x5dcef ./src/MAL/PORT_Config.o
+ .comment       0x00000000       0x71 ./src/MAL/PORT_Config.o
+ .debug_frame   0x00000000       0xb0 ./src/MAL/PORT_Config.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/MAL/PORT_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/PCC_Config.o
+ .text          0x00000000        0x0 ./src/MAL/PCC_Config.o
+ .data          0x00000000        0x0 ./src/MAL/PCC_Config.o
+ .bss           0x00000000        0x0 ./src/MAL/PCC_Config.o
+ .text.PCC_PORTB
+                0x00000000       0x1c ./src/MAL/PCC_Config.o
+ .text.PCC_PORTC
+                0x00000000       0x1c ./src/MAL/PCC_Config.o
+ .text.PCC_PORTD
+                0x00000000       0x1c ./src/MAL/PCC_Config.o
+ .text.PCC_PORTE
+                0x00000000       0x1c ./src/MAL/PCC_Config.o
+ .text.PCC_LPIT
+                0x00000000       0x24 ./src/MAL/PCC_Config.o
+ .debug_info    0x00000000      0x110 ./src/MAL/PCC_Config.o
+ .debug_abbrev  0x00000000       0x94 ./src/MAL/PCC_Config.o
+ .debug_aranges
+                0x00000000       0x40 ./src/MAL/PCC_Config.o
+ .debug_ranges  0x00000000       0x30 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0xbf ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/PCC_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/PCC_Config.o
+ .debug_line    0x00000000      0x24d ./src/MAL/PCC_Config.o
+ .debug_str     0x00000000    0x5dcc7 ./src/MAL/PCC_Config.o
+ .comment       0x00000000       0x71 ./src/MAL/PCC_Config.o
+ .debug_frame   0x00000000       0xb0 ./src/MAL/PCC_Config.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/MAL/PCC_Config.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/LEDS_IDLE.o
+ .text          0x00000000        0x0 ./src/MAL/LEDS_IDLE.o
+ .data          0x00000000        0x0 ./src/MAL/LEDS_IDLE.o
+ .bss           0x00000000        0x0 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x00000000       0x8e ./src/MAL/LEDS_IDLE.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/MAL/GPIO_Config.o
+ .text          0x00000000        0x0 ./src/MAL/GPIO_Config.o
+ .data          0x00000000        0x0 ./src/MAL/GPIO_Config.o
+ .bss           0x00000000        0x0 ./src/MAL/GPIO_Config.o
+ .text.PORTB_AS_INPUT
+                0x00000000       0x2c ./src/MAL/GPIO_Config.o
+ .text.PORTC_AS_INPUT
+                0x00000000       0x2c ./src/MAL/GPIO_Config.o
+ .text.PORTD_AS_INPUT
+                0x00000000       0x2c ./src/MAL/GPIO_Config.o
+ .text.PORTE_AS_INPUT
+                0x00000000       0x2c ./src/MAL/GPIO_Config.o
+ .text.PORTB_AS_OUTPUT
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTC_AS_OUTPUT
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTD_AS_OUTPUT
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTE_AS_OUTPUT
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTB_HIGH
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTC_HIGH
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTD_HIGH
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTE_HIGH
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTB_LOW
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTC_LOW
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTD_LOW
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .text.PORTE_LOW
+                0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .debug_info    0x00000000      0x339 ./src/MAL/GPIO_Config.o
+ .debug_abbrev  0x00000000       0xb2 ./src/MAL/GPIO_Config.o
+ .debug_aranges
+                0x00000000       0x98 ./src/MAL/GPIO_Config.o
+ .debug_ranges  0x00000000       0x88 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0xc6 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000      0x868 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x52 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0xa0 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x16 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x19 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x64 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000      0x185 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000      0x140 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x9d ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000      0x15b ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x28 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x58 ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000     0xdf8d ./src/MAL/GPIO_Config.o
+ .debug_macro   0x00000000       0x10 ./src/MAL/GPIO_Config.o
+ .debug_line    0x00000000      0x314 ./src/MAL/GPIO_Config.o
+ .debug_str     0x00000000    0x5dd74 ./src/MAL/GPIO_Config.o
+ .comment       0x00000000       0x71 ./src/MAL/GPIO_Config.o
+ .debug_frame   0x00000000      0x290 ./src/MAL/GPIO_Config.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/MAL/GPIO_Config.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/WDOG.o
+ .text          0x00000000        0x0 ./src/HAL/WDOG.o
+ .data          0x00000000        0x0 ./src/HAL/WDOG.o
+ .bss           0x00000000        0x0 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000      0x868 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x52 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0xa0 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x16 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x19 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x64 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000      0x185 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000      0x140 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x9d ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000      0x15b ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x28 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x58 ./src/HAL/WDOG.o
+ .debug_macro   0x00000000     0xdf8d ./src/HAL/WDOG.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/WDOG.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/TIMERS.o
+ .text          0x00000000        0x0 ./src/HAL/TIMERS.o
+ .data          0x00000000        0x0 ./src/HAL/TIMERS.o
+ .bss           0x00000000        0x0 ./src/HAL/TIMERS.o
+ .text.ms_TIMER
+                0x00000000       0x50 ./src/HAL/TIMERS.o
+ .text.TIMER_ENABLE
+                0x00000000       0x2c ./src/HAL/TIMERS.o
+ .debug_info    0x00000000      0x1f9 ./src/HAL/TIMERS.o
+ .debug_abbrev  0x00000000       0xe0 ./src/HAL/TIMERS.o
+ .debug_aranges
+                0x00000000       0x28 ./src/HAL/TIMERS.o
+ .debug_ranges  0x00000000       0x18 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0xc3 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000      0x868 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x52 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0xa0 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x16 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x19 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x64 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000      0x185 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000      0x140 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x9d ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000      0x15b ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x28 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x58 ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000     0xdf8d ./src/HAL/TIMERS.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/TIMERS.o
+ .debug_line    0x00000000      0x25e ./src/HAL/TIMERS.o
+ .debug_str     0x00000000    0x5dd00 ./src/HAL/TIMERS.o
+ .comment       0x00000000       0x71 ./src/HAL/TIMERS.o
+ .debug_frame   0x00000000       0x58 ./src/HAL/TIMERS.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/HAL/TIMERS.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/Inputs_Outputs.o
+ .text          0x00000000        0x0 ./src/HAL/Inputs_Outputs.o
+ .data          0x00000000        0x0 ./src/HAL/Inputs_Outputs.o
+ .bss           0x00000000        0x0 ./src/HAL/Inputs_Outputs.o
+ .text.enable_PORTB
+                0x00000000        0xc ./src/HAL/Inputs_Outputs.o
+ .text.enable_PORTC
+                0x00000000        0xc ./src/HAL/Inputs_Outputs.o
+ .text.enable_PORTD
+                0x00000000        0xc ./src/HAL/Inputs_Outputs.o
+ .text.enable_PORTE
+                0x00000000        0xc ./src/HAL/Inputs_Outputs.o
+ .text.set_PORTB_AS
+                0x00000000       0x40 ./src/HAL/Inputs_Outputs.o
+ .text.set_PORTC_AS
+                0x00000000       0x40 ./src/HAL/Inputs_Outputs.o
+ .text.set_PORTD_AS
+                0x00000000       0x40 ./src/HAL/Inputs_Outputs.o
+ .text.set_PORTE_AS
+                0x00000000       0x40 ./src/HAL/Inputs_Outputs.o
+ .text.put_PORTB_PIN
+                0x00000000       0x24 ./src/HAL/Inputs_Outputs.o
+ .text.put_PORTC_PIN
+                0x00000000       0x24 ./src/HAL/Inputs_Outputs.o
+ .text.put_PORTD_PIN
+                0x00000000       0x24 ./src/HAL/Inputs_Outputs.o
+ .text.put_PORTE_PIN
+                0x00000000       0x24 ./src/HAL/Inputs_Outputs.o
+ .debug_info    0x00000000      0x247 ./src/HAL/Inputs_Outputs.o
+ .debug_abbrev  0x00000000       0x84 ./src/HAL/Inputs_Outputs.o
+ .debug_aranges
+                0x00000000       0x78 ./src/HAL/Inputs_Outputs.o
+ .debug_ranges  0x00000000       0x68 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000      0x103 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000      0x868 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x52 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0xa0 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x16 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x19 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x64 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000      0x185 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000      0x140 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x9d ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000      0x15b ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x28 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x58 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000     0xdf8d ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/Inputs_Outputs.o
+ .debug_macro   0x00000000       0x1c ./src/HAL/Inputs_Outputs.o
+ .debug_line    0x00000000      0x354 ./src/HAL/Inputs_Outputs.o
+ .debug_str     0x00000000    0x5dd7f ./src/HAL/Inputs_Outputs.o
+ .comment       0x00000000       0x71 ./src/HAL/Inputs_Outputs.o
+ .debug_frame   0x00000000      0x1a0 ./src/HAL/Inputs_Outputs.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/HAL/Inputs_Outputs.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/HAL/CLOCKS.o
+ .text          0x00000000        0x0 ./src/HAL/CLOCKS.o
+ .data          0x00000000        0x0 ./src/HAL/CLOCKS.o
+ .bss           0x00000000        0x0 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000      0x868 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x52 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0xa0 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x16 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x19 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x64 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000      0x185 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000      0x140 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x9d ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000      0x15b ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x28 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x58 ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000     0xdf8d ./src/HAL/CLOCKS.o
+ .debug_macro   0x00000000       0x10 ./src/HAL/CLOCKS.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./src/APP/Window_Lifter_Routine.o
+ .text          0x00000000        0x0 ./src/APP/Window_Lifter_Routine.o
+ .data          0x00000000        0x0 ./src/APP/Window_Lifter_Routine.o
+ .bss           0x00000000        0x0 ./src/APP/Window_Lifter_Routine.o
+ .text.WL_INIT  0x00000000       0xac ./src/APP/Window_Lifter_Routine.o
+ .text.LED_BLUE_ON
+                0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .text.LED_BLUE_OFF
+                0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .text.LED_GREEN_ON
+                0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .text.LED_GREEN_OFF
+                0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .text.BTN_UP   0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .text.BTN_DOWN
+                0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .text.ANTI_PINCH
+                0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .debug_info    0x00000000      0x13d ./src/APP/Window_Lifter_Routine.o
+ .debug_abbrev  0x00000000       0x8b ./src/APP/Window_Lifter_Routine.o
+ .debug_aranges
+                0x00000000       0x58 ./src/APP/Window_Lifter_Routine.o
+ .debug_ranges  0x00000000       0x48 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000      0x15e ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000      0x868 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x52 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0xa0 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x16 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x19 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x64 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000      0x185 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000      0x140 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x9d ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000      0x15b ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x28 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x58 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000     0xdf8d ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x10 ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x1c ./src/APP/Window_Lifter_Routine.o
+ .debug_macro   0x00000000       0x5e ./src/APP/Window_Lifter_Routine.o
+ .debug_line    0x00000000      0x391 ./src/APP/Window_Lifter_Routine.o
+ .debug_str     0x00000000    0x5de36 ./src/APP/Window_Lifter_Routine.o
+ .comment       0x00000000       0x71 ./src/APP/Window_Lifter_Routine.o
+ .debug_frame   0x00000000       0xf0 ./src/APP/Window_Lifter_Routine.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/APP/Window_Lifter_Routine.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K144.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_S32K144.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 ./Project_Settings/Startup_Code/system_S32K144.o
+ .text.SystemSoftwareReset
+                0x00000000       0x40 ./Project_Settings/Startup_Code/system_S32K144.o
+ .rodata.fircFreq.5043
+                0x00000000       0x10 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0x868 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x52 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0xa0 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x19 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x64 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0x185 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0x140 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x9d ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000      0x15b ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x28 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000       0x58 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00000000     0xdf8d ./Project_Settings/Startup_Code/system_S32K144.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x868 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x52 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0xa0 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x6d ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x19 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x64 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x185 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x140 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x9d ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x15b ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x28 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x58 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000     0xdf8d ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x978 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x22 ./Project_Settings/Startup_Code/startup.o
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .text.exit     0x00000000       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .text._Exit    0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .bss.__stdio_exit
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .bss.__console_exit
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_info    0x00000000      0x111 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_abbrev  0x00000000       0x91 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_loc     0x00000000       0x5d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_aranges
+                0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_line    0x00000000       0xa4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_str     0x00000000      0x23c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_frame   0x00000000       0x3c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .text.memset   0x00000000        0xc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_info    0x00000000       0xec C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_abbrev  0x00000000       0x62 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_loc     0x00000000       0x64 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_aranges
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_line    0x00000000       0x8f C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_str     0x00000000      0x21f C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_frame   0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .text.__fill_mem
+                0x00000000       0x7a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_info    0x00000000      0x137 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_abbrev  0x00000000       0x78 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_loc     0x00000000      0x16b C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_aranges
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_line    0x00000000       0xb2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_str     0x00000000      0x231 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_frame   0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text.__init_cpp
+                0x00000000       0x4c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text.__fini_cpp
+                0x00000000       0x34 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text._ExitProcess
+                0x00000000        0x2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x00000000      0x14a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00000000       0xae C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x00000000       0x9d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x00000000       0x30 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x00000000       0x74 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_str     0x00000000      0x28e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00000000       0x50 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__destroy_global_chain
+                0x00000000       0x18 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xa C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_registers
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_hardware
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_user
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_curr_func
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x00000000      0x300 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.__global_destructor_chain
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00000000      0x2b3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x00000000      0x1d3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x00000000      0x144 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_aranges
+                0x00000000       0x58 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x00000000      0x107 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_str     0x00000000      0x2b5 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x00000000       0xac C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__copy_rom_section
+                0x00000000       0x42 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__copy_rom_sections_to_ram
+                0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_info    0x00000000      0x20e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_abbrev  0x00000000      0x11f C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_loc     0x00000000       0xb3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_aranges
+                0x00000000       0x30 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_line    0x00000000       0x9e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_str     0x00000000      0x233 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_frame   0x00000000       0x48 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .text._ExitProcess
+                0x00000000        0x2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_info    0x00000000       0x4e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_abbrev  0x00000000       0x4a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_aranges
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_line    0x00000000       0x45 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_str     0x00000000      0x1a7 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_frame   0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0007fbf0         xr
+m_data           0x1fff8000         0x00008000         rw
+m_data_2         0x20000000         0x00007000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+LOAD ./src/main.o
+LOAD ./src/initproyect.o
+LOAD ./src/Mode_Routine.o
+LOAD ./src/MAL/time400ms.o
+LOAD ./src/MAL/time100ms.o
+LOAD ./src/MAL/WDOG_Config.o
+LOAD ./src/MAL/SCG_Config.o
+LOAD ./src/MAL/PORT_Config.o
+LOAD ./src/MAL/PCC_Config.o
+LOAD ./src/MAL/LEDS_IDLE.o
+LOAD ./src/MAL/GPIO_Config.o
+LOAD ./src/HAL/WDOG.o
+LOAD ./src/HAL/TIMERS.o
+LOAD ./src/HAL/Inputs_Outputs.o
+LOAD ./src/HAL/CLOCKS.o
+LOAD ./src/APP/Window_Lifter_Routine.o
+LOAD ./Project_Settings/Startup_Code/system_S32K144.o
+LOAD ./Project_Settings/Startup_Code/startup_S32K144.o
+LOAD ./Project_Settings/Startup_Code/startup.o
+START GROUP
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libm.a
+LOAD c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a
+END GROUP
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+                0x00000400                M_VECTOR_RAM_SIZE = DEFINED (__flash_vector_table__)?0x0:0x400
+
+.interrupts     0x00000000      0x400
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 ./Project_Settings/Startup_Code/startup_S32K144.o
+                0x00000000                __isr_vector
+                0x00000400                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_S32K144.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410      0xc8c
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x44 ./Project_Settings/Startup_Code/startup_S32K144.o
+                0x00000410                Reset_Handler
+                0x00000450                DebugMon_Handler
+                0x00000450                Reserved88_IRQHandler
+                0x00000450                CAN0_ORed_IRQHandler
+                0x00000450                HardFault_Handler
+                0x00000450                Reserved86_IRQHandler
+                0x00000450                Reserved103_IRQHandler
+                0x00000450                SysTick_Handler
+                0x00000450                FTM2_Ovf_Reload_IRQHandler
+                0x00000450                Reserved50_IRQHandler
+                0x00000450                FTFC_Fault_IRQHandler
+                0x00000450                FTM0_Ch6_Ch7_IRQHandler
+                0x00000450                Reserved114_IRQHandler
+                0x00000450                PendSV_Handler
+                0x00000450                NMI_Handler
+                0x00000450                Reserved89_IRQHandler
+                0x00000450                ERM_double_fault_IRQHandler
+                0x00000450                DMA2_IRQHandler
+                0x00000450                Reserved59_IRQHandler
+                0x00000450                Reserved99_IRQHandler
+                0x00000450                FTM3_Ch6_Ch7_IRQHandler
+                0x00000450                CAN2_ORed_0_15_MB_IRQHandler
+                0x00000450                LPIT0_Ch3_IRQHandler
+                0x00000450                Reserved92_IRQHandler
+                0x00000450                FTM0_Ch4_Ch5_IRQHandler
+                0x00000450                CAN1_Error_IRQHandler
+                0x00000450                FTM3_Ch0_Ch1_IRQHandler
+                0x00000450                SWI_IRQHandler
+                0x00000450                ADC0_IRQHandler
+                0x00000450                FTM2_Ch4_Ch5_IRQHandler
+                0x00000450                UsageFault_Handler
+                0x00000450                FTM0_Ovf_Reload_IRQHandler
+                0x00000450                DefaultISR
+                0x00000450                DMA9_IRQHandler
+                0x00000450                Reserved58_IRQHandler
+                0x00000450                CAN1_ORed_0_15_MB_IRQHandler
+                0x00000450                FTM1_Ch2_Ch3_IRQHandler
+                0x00000450                DMA14_IRQHandler
+                0x00000450                Reserved82_IRQHandler
+                0x00000450                CAN0_ORed_16_31_MB_IRQHandler
+                0x00000450                LPI2C0_Slave_IRQHandler
+                0x00000450                Reserved71_IRQHandler
+                0x00000450                PORTD_IRQHandler
+                0x00000450                Reserved69_IRQHandler
+                0x00000450                PORTB_IRQHandler
+                0x00000450                Reserved70_IRQHandler
+                0x00000450                ADC1_IRQHandler
+                0x00000450                FTM2_Ch2_Ch3_IRQHandler
+                0x00000450                Reserved53_IRQHandler
+                0x00000450                DMA5_IRQHandler
+                0x00000450                RTC_IRQHandler
+                0x00000450                PDB0_IRQHandler
+                0x00000450                Reserved54_IRQHandler
+                0x00000450                FTM2_Ch6_Ch7_IRQHandler
+                0x00000450                FTM3_Ch2_Ch3_IRQHandler
+                0x00000450                FTM2_Ch0_Ch1_IRQHandler
+                0x00000450                LPSPI1_IRQHandler
+                0x00000450                LPUART1_RxTx_IRQHandler
+                0x00000450                RTC_Seconds_IRQHandler
+                0x00000450                CAN2_ORed_IRQHandler
+                0x00000450                Reserved72_IRQHandler
+                0x00000450                Reserved110_IRQHandler
+                0x00000450                DMA11_IRQHandler
+                0x00000450                Reserved107_IRQHandler
+                0x00000450                Read_Collision_IRQHandler
+                0x00000450                CAN2_Error_IRQHandler
+                0x00000450                FTFC_IRQHandler
+                0x00000450                DMA7_IRQHandler
+                0x00000450                FTM1_Ch6_Ch7_IRQHandler
+                0x00000450                Reserved105_IRQHandler
+                0x00000450                LPIT0_Ch1_IRQHandler
+                0x00000450                FTM1_Ch4_Ch5_IRQHandler
+                0x00000450                FTM3_Ovf_Reload_IRQHandler
+                0x00000450                LPUART2_RxTx_IRQHandler
+                0x00000450                LPSPI0_IRQHandler
+                0x00000450                WDOG_EWM_IRQHandler
+                0x00000450                MemManage_Handler
+                0x00000450                Reserved90_IRQHandler
+                0x00000450                Reserved83_IRQHandler
+                0x00000450                FTM0_Fault_IRQHandler
+                0x00000450                Reserved48_IRQHandler
+                0x00000450                SVC_Handler
+                0x00000450                ERM_single_fault_IRQHandler
+                0x00000450                FTM2_Fault_IRQHandler
+                0x00000450                FTM0_Ch2_Ch3_IRQHandler
+                0x00000450                DMA13_IRQHandler
+                0x00000450                FTM0_Ch0_Ch1_IRQHandler
+                0x00000450                FTM3_Fault_IRQHandler
+                0x00000450                RCM_IRQHandler
+                0x00000450                DMA3_IRQHandler
+                0x00000450                Reserved100_IRQHandler
+                0x00000450                DMA0_IRQHandler
+                0x00000450                Reserved91_IRQHandler
+                0x00000450                CAN1_ORed_IRQHandler
+                0x00000450                DMA15_IRQHandler
+                0x00000450                SCG_IRQHandler
+                0x00000450                PDB1_IRQHandler
+                0x00000450                Reserved81_IRQHandler
+                0x00000450                Reserved46_IRQHandler
+                0x00000450                Reserved45_IRQHandler
+                0x00000450                CAN0_Error_IRQHandler
+                0x00000450                Reserved112_IRQHandler
+                0x00000450                LPI2C0_Master_IRQHandler
+                0x00000450                DMA4_IRQHandler
+                0x00000450                FTM1_Fault_IRQHandler
+                0x00000450                Reserved106_IRQHandler
+                0x00000450                DMA_Error_IRQHandler
+                0x00000450                LVD_LVW_IRQHandler
+                0x00000450                LPIT0_Ch2_IRQHandler
+                0x00000450                PORTA_IRQHandler
+                0x00000450                MCM_IRQHandler
+                0x00000450                LPSPI2_IRQHandler
+                0x00000450                DMA12_IRQHandler
+                0x00000450                FTM3_Ch4_Ch5_IRQHandler
+                0x00000450                CAN0_ORed_0_15_MB_IRQHandler
+                0x00000450                PORTE_IRQHandler
+                0x00000450                LPUART0_RxTx_IRQHandler
+                0x00000450                LPTMR0_IRQHandler
+                0x00000450                BusFault_Handler
+                0x00000450                Reserved87_IRQHandler
+                0x00000450                FTM1_Ovf_Reload_IRQHandler
+                0x00000450                DMA8_IRQHandler
+                0x00000450                Reserved93_IRQHandler
+                0x00000450                DMA10_IRQHandler
+                0x00000450                CAN0_Wake_Up_IRQHandler
+                0x00000450                CMP0_IRQHandler
+                0x00000450                Reserved52_IRQHandler
+                0x00000450                PORTC_IRQHandler
+                0x00000450                DMA6_IRQHandler
+                0x00000450                FTM1_Ch0_Ch1_IRQHandler
+                0x00000450                FLEXIO_IRQHandler
+                0x00000450                DMA1_IRQHandler
+                0x00000450                Reserved113_IRQHandler
+ *(.text*)
+ .text.main     0x00000454      0x3f8 ./src/main.o
+                0x00000454                main
+ .text.LPIT0_Ch0_IRQHandler
+                0x0000084c       0x2c ./src/main.o
+                0x0000084c                LPIT0_Ch0_IRQHandler
+ .text.EnablePCC
+                0x00000878       0x44 ./src/initproyect.o
+                0x00000878                EnablePCC
+ .text.NVIC_init_IRQs
+                0x000008bc       0x2c ./src/initproyect.o
+                0x000008bc                NVIC_init_IRQs
+ .text.WindowInit
+                0x000008e8      0x128 ./src/initproyect.o
+                0x000008e8                WindowInit
+ .text.IndicatorsInit
+                0x00000a10       0x68 ./src/initproyect.o
+                0x00000a10                IndicatorsInit
+ .text.ButtonsInit
+                0x00000a78       0x58 ./src/initproyect.o
+                0x00000a78                ButtonsInit
+ .text.LPIT0_init
+                0x00000ad0       0x58 ./src/initproyect.o
+                0x00000ad0                LPIT0_init
+ .text.Down_Mode_Routine
+                0x00000b28       0xe8 ./src/Mode_Routine.o
+                0x00000b28                Down_Mode_Routine
+ .text.Up_Mode_Routine
+                0x00000c10       0xf4 ./src/Mode_Routine.o
+                0x00000c10                Up_Mode_Routine
+ .text.EnableTimer400ms
+                0x00000d04       0x20 ./src/MAL/time400ms.o
+                0x00000d04                EnableTimer400ms
+ .text.DisableTimer400ms
+                0x00000d24       0x18 ./src/MAL/time400ms.o
+                0x00000d24                DisableTimer400ms
+ .text.EnableTimer100ms
+                0x00000d3c       0x20 ./src/MAL/time100ms.o
+                0x00000d3c                EnableTimer100ms
+ .text.DisableTimer100ms
+                0x00000d5c       0x18 ./src/MAL/time100ms.o
+                0x00000d5c                DisableTimer100ms
+ .text.DISABLE_WDOG
+                0x00000d74       0x2c ./src/MAL/WDOG_Config.o
+                0x00000d74                DISABLE_WDOG
+ .text.SOSC_INIT_8MHZ
+                0x00000da0       0x4c ./src/MAL/SCG_Config.o
+                0x00000da0                SOSC_INIT_8MHZ
+ .text.SPLL_INIT_160MHZ
+                0x00000dec       0x64 ./src/MAL/SCG_Config.o
+                0x00000dec                SPLL_INIT_160MHZ
+ .text.NORMAL_RUN_MODE_80MHZ
+                0x00000e50       0x2c ./src/MAL/SCG_Config.o
+                0x00000e50                NORMAL_RUN_MODE_80MHZ
+ .text.LEDS_IDLE
+                0x00000e7c       0xdc ./src/MAL/LEDS_IDLE.o
+                0x00000e7c                LEDS_IDLE
+ .text.WDOG_DISABLE
+                0x00000f58        0xc ./src/HAL/WDOG.o
+                0x00000f58                WDOG_DISABLE
+ .text.FREQ_Config
+                0x00000f64       0x14 ./src/HAL/CLOCKS.o
+                0x00000f64                FREQ_Config
+ .text.SystemInit
+                0x00000f78       0x30 ./Project_Settings/Startup_Code/system_S32K144.o
+                0x00000f78                SystemInit
+ .text.init_data_bss
+                0x00000fa8       0xf4 ./Project_Settings/Startup_Code/startup.o
+                0x00000fa8                init_data_bss
+ *(.rodata)
+ *(.rodata*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x0000109c                . = ALIGN (0x4)
+
+.vfp11_veneer   0x0000109c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000109c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0000109c        0x0
+ .iplt          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+
+.rel.dyn        0x0000109c        0x0
+ .rel.iplt      0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0000109c        0x0
+                0x0000109c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0000109c                __exidx_end = .
+
+.ctors          0x0000109c        0x0
+                0x0000109c                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0000109c                __CTOR_END__ = .
+
+.dtors          0x0000109c        0x0
+                0x0000109c                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0000109c                __DTOR_END__ = .
+
+.preinit_array  0x0000109c        0x0
+                0x0000109c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0000109c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000109c        0x0
+                0x0000109c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+                0x0000109c                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000109c        0x0
+                0x0000109c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x0000109c                PROVIDE (__fini_array_end, .)
+                0x0000109c                __etext = .
+                0x0000109c                __DATA_ROM = .
+
+.interrupts_ram
+                0x1fff8000      0x400
+                0x1fff8000                . = ALIGN (0x4)
+                0x1fff8000                __VECTOR_RAM__ = .
+                0x1fff8000                __interrupts_ram_start__ = .
+ *(.m_interrupts_ram)
+                0x1fff8400                . = (. + M_VECTOR_RAM_SIZE)
+ *fill*         0x1fff8000      0x400 
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __interrupts_ram_end__ = .
+                0x1fff8000                __VECTOR_RAM = DEFINED (__flash_vector_table__)?ORIGIN (m_interrupts):__VECTOR_RAM__
+                0x00000400                __RAM_VECTOR_TABLE_SIZE = DEFINED (__flash_vector_table__)?0x0:(__interrupts_ram_end__ - __interrupts_ram_start__)
+
+.data           0x1fff8400        0x0 load address 0x0000109c
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __DATA_RAM = .
+                0x1fff8400                __data_start__ = .
+ *(.data)
+ *(.data*)
+ *(.jcr*)
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __data_end__ = .
+                0x0000109c                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x0000109c                __CODE_ROM = __DATA_END
+
+.igot.plt       0x1fff8400        0x0
+ .igot.plt      0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+
+.code           0x1fff8400        0x0 load address 0x0000109c
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __CODE_RAM = .
+                0x1fff8400                __code_start__ = .
+ *(.code_ram)
+                0x1fff8400                . = ALIGN (0x4)
+                0x1fff8400                __code_end__ = .
+                0x0000109c                __CODE_END = (__CODE_ROM + (__code_end__ - __code_start__))
+
+.customSectionBlock
+ *(.customSection)
+
+.bss            0x20000000        0xc
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __BSS_START = .
+                0x20000000                __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.lpit0_ch0_flag_counter
+                0x20000000        0x1 ./src/main.o
+                0x20000000                lpit0_ch0_flag_counter
+ *fill*         0x20000001        0x3 
+ .bss.level     0x20000004        0x4 ./src/main.o
+                0x20000004                level
+ .bss.pushup    0x20000008        0x1 ./src/main.o
+                0x20000008                pushup
+ .bss.pushdown  0x20000009        0x1 ./src/main.o
+                0x20000009                pushdown
+ *(COMMON)
+                0x2000000c                . = ALIGN (0x4)
+ *fill*         0x2000000a        0x2 
+                0x2000000c                __bss_end__ = .
+                0x2000000c                __BSS_END = .
+
+.heap           0x2000000c      0x404
+                0x20000010                . = ALIGN (0x8)
+ *fill*         0x2000000c        0x4 
+                0x20000010                __end__ = .
+                0x20000010                PROVIDE (end, .)
+                0x20000010                PROVIDE (_end, .)
+                0x20000010                PROVIDE (__end, .)
+                0x20000010                __HeapBase = .
+                0x20000410                . = (. + HEAP_SIZE)
+ *fill*         0x20000010      0x400 
+                0x20000410                __HeapLimit = .
+                0x20000410                __heap_limit = .
+
+.stack          0x20000410      0x400
+                0x20000410                . = ALIGN (0x8)
+                0x20000810                . = (. + STACK_SIZE)
+ *fill*         0x20000410      0x400 
+                0x20007000                __StackTop = (ORIGIN (m_data_2) + 0x7000)
+                0x20006c00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x20007000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x31
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x33 ./src/main.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/initproyect.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/Mode_Routine.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/MAL/time400ms.o
+ .ARM.attributes
+                0x000000cc       0x33 ./src/MAL/time100ms.o
+ .ARM.attributes
+                0x000000ff       0x33 ./src/MAL/WDOG_Config.o
+ .ARM.attributes
+                0x00000132       0x33 ./src/MAL/SCG_Config.o
+ .ARM.attributes
+                0x00000165       0x33 ./src/MAL/LEDS_IDLE.o
+ .ARM.attributes
+                0x00000198       0x33 ./src/HAL/WDOG.o
+ .ARM.attributes
+                0x000001cb       0x33 ./src/HAL/CLOCKS.o
+ .ARM.attributes
+                0x000001fe       0x33 ./Project_Settings/Startup_Code/system_S32K144.o
+ .ARM.attributes
+                0x00000231       0x1b ./Project_Settings/Startup_Code/startup_S32K144.o
+ .ARM.attributes
+                0x0000024c       0x33 ./Project_Settings/Startup_Code/startup.o
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
+OUTPUT(WindowsLifter.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x1a4a
+ .debug_info    0x00000000      0x25c ./src/main.o
+ .debug_info    0x0000025c      0x487 ./src/initproyect.o
+ .debug_info    0x000006e3      0x147 ./src/Mode_Routine.o
+ .debug_info    0x0000082a      0x1a2 ./src/MAL/time400ms.o
+ .debug_info    0x000009cc      0x1a2 ./src/MAL/time100ms.o
+ .debug_info    0x00000b6e       0xe1 ./src/MAL/WDOG_Config.o
+ .debug_info    0x00000c4f      0x269 ./src/MAL/SCG_Config.o
+ .debug_info    0x00000eb8      0x10e ./src/MAL/LEDS_IDLE.o
+ .debug_info    0x00000fc6       0x88 ./src/HAL/WDOG.o
+ .debug_info    0x0000104e       0x88 ./src/HAL/CLOCKS.o
+ .debug_info    0x000010d6      0x500 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_info    0x000015d6       0x89 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_info    0x0000165f      0x3eb ./Project_Settings/Startup_Code/startup.o
+
+.debug_abbrev   0x00000000      0x84d
+ .debug_abbrev  0x00000000       0xd5 ./src/main.o
+ .debug_abbrev  0x000000d5       0xde ./src/initproyect.o
+ .debug_abbrev  0x000001b3       0xbb ./src/Mode_Routine.o
+ .debug_abbrev  0x0000026e       0xaa ./src/MAL/time400ms.o
+ .debug_abbrev  0x00000318       0xaa ./src/MAL/time100ms.o
+ .debug_abbrev  0x000003c2       0x8f ./src/MAL/WDOG_Config.o
+ .debug_abbrev  0x00000451       0xc0 ./src/MAL/SCG_Config.o
+ .debug_abbrev  0x00000511       0x89 ./src/MAL/LEDS_IDLE.o
+ .debug_abbrev  0x0000059a       0x43 ./src/HAL/WDOG.o
+ .debug_abbrev  0x000005dd       0x43 ./src/HAL/CLOCKS.o
+ .debug_abbrev  0x00000620      0x118 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_abbrev  0x00000738       0x14 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_abbrev  0x0000074c      0x101 ./Project_Settings/Startup_Code/startup.o
+
+.debug_aranges  0x00000000      0x208
+ .debug_aranges
+                0x00000000       0x28 ./src/main.o
+ .debug_aranges
+                0x00000028       0x48 ./src/initproyect.o
+ .debug_aranges
+                0x00000070       0x28 ./src/Mode_Routine.o
+ .debug_aranges
+                0x00000098       0x28 ./src/MAL/time400ms.o
+ .debug_aranges
+                0x000000c0       0x28 ./src/MAL/time100ms.o
+ .debug_aranges
+                0x000000e8       0x20 ./src/MAL/WDOG_Config.o
+ .debug_aranges
+                0x00000108       0x30 ./src/MAL/SCG_Config.o
+ .debug_aranges
+                0x00000138       0x20 ./src/MAL/LEDS_IDLE.o
+ .debug_aranges
+                0x00000158       0x20 ./src/HAL/WDOG.o
+ .debug_aranges
+                0x00000178       0x20 ./src/HAL/CLOCKS.o
+ .debug_aranges
+                0x00000198       0x30 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_aranges
+                0x000001c8       0x20 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_aranges
+                0x000001e8       0x20 ./Project_Settings/Startup_Code/startup.o
+
+.debug_ranges   0x00000000      0x128
+ .debug_ranges  0x00000000       0x18 ./src/main.o
+ .debug_ranges  0x00000018       0x38 ./src/initproyect.o
+ .debug_ranges  0x00000050       0x18 ./src/Mode_Routine.o
+ .debug_ranges  0x00000068       0x18 ./src/MAL/time400ms.o
+ .debug_ranges  0x00000080       0x18 ./src/MAL/time100ms.o
+ .debug_ranges  0x00000098       0x10 ./src/MAL/WDOG_Config.o
+ .debug_ranges  0x000000a8       0x20 ./src/MAL/SCG_Config.o
+ .debug_ranges  0x000000c8       0x10 ./src/MAL/LEDS_IDLE.o
+ .debug_ranges  0x000000d8       0x10 ./src/HAL/WDOG.o
+ .debug_ranges  0x000000e8       0x10 ./src/HAL/CLOCKS.o
+ .debug_ranges  0x000000f8       0x20 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_ranges  0x00000118       0x10 ./Project_Settings/Startup_Code/startup.o
+
+.debug_macro    0x00000000    0x10400
+ .debug_macro   0x00000000      0x193 ./src/main.o
+ .debug_macro   0x00000193      0x868 ./src/main.o
+ .debug_macro   0x000009fb       0x52 ./src/main.o
+ .debug_macro   0x00000a4d       0xa0 ./src/main.o
+ .debug_macro   0x00000aed       0x16 ./src/main.o
+ .debug_macro   0x00000b03       0x19 ./src/main.o
+ .debug_macro   0x00000b1c       0x64 ./src/main.o
+ .debug_macro   0x00000b80      0x185 ./src/main.o
+ .debug_macro   0x00000d05      0x140 ./src/main.o
+ .debug_macro   0x00000e45       0x9d ./src/main.o
+ .debug_macro   0x00000ee2       0x10 ./src/main.o
+ .debug_macro   0x00000ef2      0x15b ./src/main.o
+ .debug_macro   0x0000104d       0x28 ./src/main.o
+ .debug_macro   0x00001075       0x58 ./src/main.o
+ .debug_macro   0x000010cd     0xdf8d ./src/main.o
+ .debug_macro   0x0000f05a       0x8e ./src/main.o
+ .debug_macro   0x0000f0e8       0x10 ./src/main.o
+ .debug_macro   0x0000f0f8       0x1c ./src/main.o
+ .debug_macro   0x0000f114       0x5e ./src/main.o
+ .debug_macro   0x0000f172       0xaf ./src/initproyect.o
+ .debug_macro   0x0000f221       0xc2 ./src/Mode_Routine.o
+ .debug_macro   0x0000f2e3       0xb0 ./src/MAL/time400ms.o
+ .debug_macro   0x0000f393       0xb0 ./src/MAL/time100ms.o
+ .debug_macro   0x0000f443       0xb9 ./src/MAL/WDOG_Config.o
+ .debug_macro   0x0000f4fc       0xb9 ./src/MAL/SCG_Config.o
+ .debug_macro   0x0000f5b5       0xb9 ./src/MAL/LEDS_IDLE.o
+ .debug_macro   0x0000f66e       0xc3 ./src/HAL/WDOG.o
+ .debug_macro   0x0000f731       0xc3 ./src/HAL/CLOCKS.o
+ .debug_macro   0x0000f7f4       0xe9 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0000f8dd       0x10 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0000f8ed       0x6d ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x0000f95a      0x978 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x000102d2       0x22 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x000102f4       0x22 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_macro   0x00010316       0xea ./Project_Settings/Startup_Code/startup.o
+
+.debug_line     0x00000000     0x1e08
+ .debug_line    0x00000000      0x463 ./src/main.o
+ .debug_line    0x00000463      0x27f ./src/initproyect.o
+ .debug_line    0x000006e2      0x28d ./src/Mode_Routine.o
+ .debug_line    0x0000096f      0x204 ./src/MAL/time400ms.o
+ .debug_line    0x00000b73      0x204 ./src/MAL/time100ms.o
+ .debug_line    0x00000d77      0x208 ./src/MAL/WDOG_Config.o
+ .debug_line    0x00000f7f      0x25d ./src/MAL/SCG_Config.o
+ .debug_line    0x000011dc      0x245 ./src/MAL/LEDS_IDLE.o
+ .debug_line    0x00001421      0x23d ./src/HAL/WDOG.o
+ .debug_line    0x0000165e      0x242 ./src/HAL/CLOCKS.o
+ .debug_line    0x000018a0      0x290 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_line    0x00001b30       0x83 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_line    0x00001bb3      0x255 ./Project_Settings/Startup_Code/startup.o
+
+.debug_str      0x00000000    0x62b39
+ .debug_str     0x00000000    0x5df2e ./src/main.o
+                              0x5dfc4 (size before relaxing)
+ .debug_str     0x0005df2e       0xfa ./src/initproyect.o
+                              0x5deaf (size before relaxing)
+ .debug_str     0x0005e028       0x45 ./src/Mode_Routine.o
+                              0x5dde2 (size before relaxing)
+ .debug_str     0x0005e06d       0x3a ./src/MAL/time400ms.o
+                              0x5dcb9 (size before relaxing)
+ .debug_str     0x0005e0a7       0x3a ./src/MAL/time100ms.o
+                              0x5dcb9 (size before relaxing)
+ .debug_str     0x0005e0e1       0x36 ./src/MAL/WDOG_Config.o
+                              0x5dc94 (size before relaxing)
+ .debug_str     0x0005e117       0xd1 ./src/MAL/SCG_Config.o
+                              0x5dd79 (size before relaxing)
+ .debug_str     0x0005e1e8       0x21 ./src/MAL/LEDS_IDLE.o
+                              0x5dd97 (size before relaxing)
+ .debug_str     0x0005e209       0x1f ./src/HAL/WDOG.o
+                              0x5dc81 (size before relaxing)
+ .debug_str     0x0005e228       0x20 ./src/HAL/CLOCKS.o
+                              0x5dc83 (size before relaxing)
+ .debug_str     0x0005e248     0x47d1 ./Project_Settings/Startup_Code/system_S32K144.o
+                              0x624e0 (size before relaxing)
+ .debug_str     0x00062a19      0x120 ./Project_Settings/Startup_Code/startup.o
+                              0x62417 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/initproyect.o
+ .comment       0x00000000       0x71 ./src/Mode_Routine.o
+ .comment       0x00000000       0x71 ./src/MAL/time400ms.o
+ .comment       0x00000000       0x71 ./src/MAL/time100ms.o
+ .comment       0x00000000       0x71 ./src/MAL/WDOG_Config.o
+ .comment       0x00000000       0x71 ./src/MAL/SCG_Config.o
+ .comment       0x00000000       0x71 ./src/MAL/LEDS_IDLE.o
+ .comment       0x00000000       0x71 ./src/HAL/WDOG.o
+ .comment       0x00000000       0x71 ./src/HAL/CLOCKS.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_S32K144.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/startup.o
+
+.debug_frame    0x00000000      0x3fc
+ .debug_frame   0x00000000       0x4c ./src/main.o
+ .debug_frame   0x0000004c       0xd0 ./src/initproyect.o
+ .debug_frame   0x0000011c       0x60 ./src/Mode_Routine.o
+ .debug_frame   0x0000017c       0x50 ./src/MAL/time400ms.o
+ .debug_frame   0x000001cc       0x50 ./src/MAL/time100ms.o
+ .debug_frame   0x0000021c       0x30 ./src/MAL/WDOG_Config.o
+ .debug_frame   0x0000024c       0x70 ./src/MAL/SCG_Config.o
+ .debug_frame   0x000002bc       0x30 ./src/MAL/LEDS_IDLE.o
+ .debug_frame   0x000002ec       0x2c ./src/HAL/WDOG.o
+ .debug_frame   0x00000318       0x2c ./src/HAL/CLOCKS.o
+ .debug_frame   0x00000344       0x80 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_frame   0x000003c4       0x38 ./Project_Settings/Startup_Code/startup.o
