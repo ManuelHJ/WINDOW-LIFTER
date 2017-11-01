@@ -4,10 +4,10 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: LEDS_IDLE.c $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/01/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -16,6 +16,14 @@
     detailed
     multiline
     description of the file
+
+	"LEDS_IDLE.c" file from the Window Lifter code.
+
+    Contains a default configuration of the Outputs (LED´s Off)
+	"LEDS_IDLE"
+	Actions of the LEDS_IDLE function:Seat an specific Output(Turn Off the LED
+	used to simulate the Window Level)
+
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +42,8 @@
 /*============================================================================*/
 /*  AUTHOR             |       VERSION      |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |           1        |  Template & Description Added   */
+/*                     |                    |          to this file           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

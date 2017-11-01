@@ -4,18 +4,21 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: Mode_Routine.h $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/01/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/**
+    "Mode_Routine.h" file from the Window Lifter code.
+
+    Contains the prototype of the functions of "Mode_Routine.c" file
+
+    Down_Mode_Routine()
+    Up_Mode_Routine
+
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +37,8 @@
 /*============================================================================*/
 /*       AUTHOR        |      VERSION       |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |          to this file           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

@@ -4,18 +4,18 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: main.c $
+ * $Revision: version 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 10/31/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/**
+
+    "main.c"Main File of the Window Lifter Code.
+    Here´s the logical sequences of the code.
+
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,12 +34,13 @@
 /*============================================================================*/
 /*  AUTHOR             |       VERSION      |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |         1          | Template & Description Added    */
+/*                     |                    |         to the file             */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
- * $Log: filename.c  $
+ * $Log: main.c  $
   ============================================================================*/
 
 /* Includes */

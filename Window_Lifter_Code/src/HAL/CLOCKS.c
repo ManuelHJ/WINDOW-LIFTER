@@ -4,18 +4,23 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: ClOCKS.c $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/01/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/**
+
+    "CLOCKS.c" file from the Window Lifter code.
+
+    Contains a function FREQ_Config () ,who calls the functions "SOSC_INIT_8MHZ",
+    "SPLL_INIT_160MHZ" and "NORMAL_RUN_MODE_80MHZ"
+    This are located inside the MAL layer ("SCG_Config.c" file)
+
+    This function set the default values to the Timer (Disable)
+
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +39,8 @@
 /*============================================================================*/
 /*  AUTHOR             |       VERSION      |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |           1        |  Template & Description Added   */
+/*                     |                    |           to this file          */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
