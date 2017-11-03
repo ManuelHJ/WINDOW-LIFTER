@@ -16,6 +16,12 @@
     "main.c"Main File of the Window Lifter Code.
     Here´s the logical sequences of the code.
 
+    Global Variables:
+    lpit0_ch0_flag_counter = 0;
+	level=0;
+	pushup=0;
+	pushdown=0;
+
     This file had sections related to the IDs:
     DSD_05, DSD_06, DSD_07, DSD_09, DSD_10, DSD_11, DSD_12, DSD_14
     (ID Traceable to "DSD_Template" file)

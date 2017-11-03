@@ -4,18 +4,25 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: tome400ms.h $
+ * $Revision: 2 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/02/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/** "time400ms.h" file from the Window Lifter code.
+
+    Contains the prototype of the functions of "time400ms.c" file
+
+    EnableTimer400ms()
+    DisableTimer400ms()
+
+    This function is related to the ID:
+  	   DSD_05
+  	   DSD_25
+  	   DSD_26
+      (ID Traceable to "DSD_Template" file)
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +41,11 @@
 /*============================================================================*/
 /*       AUTHOR        |      VERSION       |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |           to the file           */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |          2         |      Add Traceability ID´s      */
+/*                     |                    |           to the code           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

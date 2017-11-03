@@ -27,6 +27,19 @@
     LPIT0_init(): Configure Timer ( Timer channel 0. Freq. Configure as 100ms
                   (/1 second==40000000 -> 100ms==4000000) )
 
+    This function is related to the ID:
+  	   DSD_01
+  	   DSD_02
+  	   DSD_04
+  	   DSD_06
+  	   DSD_07
+  	   DSD_29
+  	   DSD_30
+  	   DSD_31
+  	   DSD_32
+  	   DSD_33
+      (ID Traceable to "DSD_Template" file)
+
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -102,6 +115,7 @@
 /*============================================================================*/
 
 
+///// Start of ID= DSD_29 (ID Traceable to "DSD_Template" file)  ////////////////
 void EnablePCC(void) {
 
 	PCC->PCCn[PCC_PORTA_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT A */
@@ -110,6 +124,8 @@ void EnablePCC(void) {
 	PCC->PCCn[PCC_PORTD_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT D */
 	PCC->PCCn[PCC_PORTE_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT E */
 }
+///// End of ID= DSD_29 (ID Traceable to "DSD_Template" file)  ////////////////
+
 
 void NVIC_init_IRQs(void) {
 	S32_NVIC->ICPR[1] = 1 << (48 % 32); /* IRQ48-LPIT0 ch0: clr any pending IRQ*/
@@ -118,7 +134,7 @@ void NVIC_init_IRQs(void) {
 }
 
 
-///// Start of ID= DSD_04 (ID Traceable to "DSD_Template" file)  ////////////////
+///// Start of ID= DSD_04, DSD_30 (ID Traceable to "DSD_Template" file)  ////////////////
 
 void WindowInit(void) {
 
@@ -154,10 +170,10 @@ void WindowInit(void) {
 
 }
 
-///// End of ID= DSD_04 (ID Traceable to "DSD_Template" file)  /////////////////
+///// End of ID= DSD_04, DSD_30 (ID Traceable to "DSD_Template" file)  /////////////////
 
 
-///// Start of ID= DSD_06,DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+///// Start of ID= DSD_06,DSD_07,DSD_31 (ID Traceable to "DSD_Template" file)  ////////////////
 
 void IndicatorsInit(void) {
 	///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
@@ -184,9 +200,10 @@ void IndicatorsInit(void) {
 	PTD->PSOR |= 1 << PTD16; /* clear pin */
 }
 
-///// End of ID= DSD_06,DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+///// End of ID= DSD_06,DSD_07,DSD_31 (ID Traceable to "DSD_Template" file)  ////////////////
 
 
+///// Start of ID= DSD_32 (ID Traceable to "DSD_Template" file)  ////////////////
 
 void ButtonsInit(void) {
 
@@ -213,7 +230,11 @@ void ButtonsInit(void) {
 
 }
 
+///// End of ID= DSD_32 (ID Traceable to "DSD_Template" file)  ////////////////
 
+
+
+///// Start of ID= DSD_33 (ID Traceable to "DSD_Template" file)  ////////////////
 
 void LPIT0_init(void) {
 	PCC->PCCn[PCC_LPIT_INDEX] = PCC_PCCn_PCS(6); /* Clock Src = 6 (SPLL2_DIV2_CLK)*/
@@ -234,5 +255,7 @@ void LPIT0_init(void) {
 	/* TRG_SRC=0: External trigger source */
 	/* TRG_SEL=0: Timer chan 0 trigger source is selected*/
 }
+
+///// End of ID= DSD_33 (ID Traceable to "DSD_Template" file)  ////////////////
 
 /* Notice: the file ends with a blank new line to avoid compiler warnings */

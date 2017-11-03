@@ -22,7 +22,10 @@
     (DisableTimer400ms)
 
 
-    This function is related to the ID= DSD_05
+    This function is related to the ID:
+    DSD_05
+    DSD_25
+    DSD_26
     (ID Traceable to "DSD_Template" file)
 */
 /*============================================================================*/

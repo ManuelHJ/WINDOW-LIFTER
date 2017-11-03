@@ -4,18 +4,28 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: time100ms.c $
+ * $Revision: 2 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/02/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/**
+ * "time400ms.c" file from the Window Lifter code.
+
+    Contains a function to set the values required to configure and enable
+    a TIMER at 100ms. (EnableTimer100ms)
+
+    Contains a function to set the values required to disable the TIMER
+    (DisableTimer100ms)
+
+
+    This function is related to the ID:
+    DSD_05
+    DSD_27
+    DSD_28
+    (ID Traceable to "DSD_Template" file)
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +44,11 @@
 /*============================================================================*/
 /*  AUTHOR             |       VERSION      |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |           to the file           */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |          2         |      Add Traceability ID´s      */
+/*                     |                    |           to the code           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
