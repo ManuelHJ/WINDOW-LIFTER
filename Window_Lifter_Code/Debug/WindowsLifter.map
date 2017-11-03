@@ -1502,20 +1502,20 @@ OUTPUT(WindowsLifter.elf elf32-littlearm)
  .debug_macro   0x000102f4       0x22 ./Project_Settings/Startup_Code/system_S32K144.o
  .debug_macro   0x00010316       0xea ./Project_Settings/Startup_Code/startup.o
 
-.debug_line     0x00000000     0x1e06
- .debug_line    0x00000000      0x463 ./src/main.o
- .debug_line    0x00000463      0x27d ./src/initproyect.o
- .debug_line    0x000006e0      0x28d ./src/Mode_Routine.o
- .debug_line    0x0000096d      0x204 ./src/MAL/time400ms.o
- .debug_line    0x00000b71      0x204 ./src/MAL/time100ms.o
- .debug_line    0x00000d75      0x208 ./src/MAL/WDOG_Config.o
- .debug_line    0x00000f7d      0x25d ./src/MAL/SCG_Config.o
- .debug_line    0x000011da      0x245 ./src/MAL/LEDS_IDLE.o
- .debug_line    0x0000141f      0x23d ./src/HAL/WDOG.o
- .debug_line    0x0000165c      0x242 ./src/HAL/CLOCKS.o
- .debug_line    0x0000189e      0x290 ./Project_Settings/Startup_Code/system_S32K144.o
- .debug_line    0x00001b2e       0x83 ./Project_Settings/Startup_Code/startup_S32K144.o
- .debug_line    0x00001bb1      0x255 ./Project_Settings/Startup_Code/startup.o
+.debug_line     0x00000000     0x1e0a
+ .debug_line    0x00000000      0x467 ./src/main.o
+ .debug_line    0x00000467      0x27d ./src/initproyect.o
+ .debug_line    0x000006e4      0x28d ./src/Mode_Routine.o
+ .debug_line    0x00000971      0x204 ./src/MAL/time400ms.o
+ .debug_line    0x00000b75      0x204 ./src/MAL/time100ms.o
+ .debug_line    0x00000d79      0x208 ./src/MAL/WDOG_Config.o
+ .debug_line    0x00000f81      0x25d ./src/MAL/SCG_Config.o
+ .debug_line    0x000011de      0x245 ./src/MAL/LEDS_IDLE.o
+ .debug_line    0x00001423      0x23d ./src/HAL/WDOG.o
+ .debug_line    0x00001660      0x242 ./src/HAL/CLOCKS.o
+ .debug_line    0x000018a2      0x290 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_line    0x00001b32       0x83 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_line    0x00001bb5      0x255 ./Project_Settings/Startup_Code/startup.o
 
 .debug_str      0x00000000    0x62b39
  .debug_str     0x00000000    0x5df2e ./src/main.o
