@@ -5,9 +5,9 @@
 /*============================================================================*/
 /*!
  * $Source: main.c $
- * $Revision: version 1 $
+ * $Revision: version 2 $
  * $Author: Guillermo Hernández $
- * $Date: 10/31/17 $
+ * $Date: 11/02/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -15,6 +15,16 @@
 
     "main.c"Main File of the Window Lifter Code.
     Here´s the logical sequences of the code.
+
+    Global Variables:
+    lpit0_ch0_flag_counter = 0;
+	level=0;
+	pushup=0;
+	pushdown=0;
+
+    This file had sections related to the IDs:
+    DSD_05, DSD_06, DSD_07, DSD_09, DSD_10, DSD_11, DSD_12, DSD_14
+    (ID Traceable to "DSD_Template" file)
 
 */
 /*============================================================================*/
@@ -36,6 +46,13 @@
 /*----------------------------------------------------------------------------*/
 /* Guillermo Hernández |         1          | Template & Description Added    */
 /*                     |                    |         to the file             */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |         2          |      Add Traceability ID´s      */
+/*                     |                    |           to the code           */
+/*----------------------------------------------------------------------------*/
+/*                                                                            */
+/*                                                                            */
+/*                                                                            */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
@@ -109,7 +126,10 @@ int main(void) {
 
  for (;;) {
 
+///// Start of ID= DSD_10, DSD_11 and DSD_12 (ID Traceable to "DSD_Template" file)  ////////////////
 while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is selected*/
+///// End of ID= DSD_10, DSD_11 and DSD_12 (ID Traceable to "DSD_Template" file)  ////////////////
+
 {
 	 if (PUSHUP) /*If PushButton UP was pressed */
 	 {
@@ -119,12 +139,19 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 	 	 DisableTimer100ms ();  /*Disable Timer with freq. 100ms*/
 		 		 if(lpit0_ch0_flag_counter>=5) /*If the TIMER counter>5 (500ms)*/
 		 		 {
-		 		 pushup=2; /*MANUAL_MODE_FLAG*/
+		 			 pushup=2; /*MANUAL_MODE_FLAG*/
 		 		 }
+
+		 		///// Start of ID= DSD_09 (ID Traceable to "DSD_Template" file)  ////////////////
 		 		 else if( (lpit0_ch0_flag_counter<5) && (lpit0_ch0_flag_counter != 0) ) /*If the TIMER counter<5 (500ms) && the TIMER counter!=0 (0ms) */
 		 		 {
+
+		 			///// Start of ID= DSD_14 (ID Traceable to "DSD_Template" file)  ////////////////
 		 			 pushup=1; /*ONE_TOUCH_MODE_FLAG*/
+		 			///// End of ID= DSD_14 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 		 }
+		 		///// End of ID= DSD_09 (ID Traceable to "DSD_Template" file)  ////////////////
 
 	}
 
@@ -140,10 +167,18 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 	 			 		 		 {
 	 			 		 		 pushdown=2; /*MANUAL_MODE_FLAG*/
 	 			 		 		 }
+
+	 			 		 		///// Start of ID= DSD_09 (ID Traceable to "DSD_Template" file)  ////////////////
+
 	 			 		 		 else if( (lpit0_ch0_flag_counter<5) && (lpit0_ch0_flag_counter != 0) ) /*If the TIMER counter<5 (500ms) && the TIMER counter!=0 (0ms) */
 	 			 		 		 {
+
+	 			 		 			///// Start of ID= DSD_14 (ID Traceable to "DSD_Template" file)  ////////////////
 	 			 		 			 pushdown=1; /*ONE_TOUCH_MODE_FLAG*/
+	 			 		 			///// End of ID= DSD_14 (ID Traceable to "DSD_Template" file)  ////////////////
+
 	 			 		 		 }
+	 			 		 		///// End of ID= DSD_09 (ID Traceable to "DSD_Template" file)  ////////////////
 	 		 }
 
 }
@@ -154,14 +189,21 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 	 {
 		 while(level<11 && pushup==1) /*While the window level (level) < 11 (All Up) && (One_Touch_Mode_Flag==1)*/
 		 {
+			 ///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 			 PTD-> PCOR |= 1<<PTD0; /* Clear Output on port D0 (LED BLUE on) as Indicator */
+			 ///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
+
 			 DisableTimer100ms(); /*Disable Timer with freq. 100ms*/
 			 lpit0_ch0_flag_counter=0; /*Clear Timer Counter*/
 			 	 	 	 	 	 Up_Mode_Routine (&level); /*Activate Up mode Routine "Switch-case" (evaluating the level)*/
-		 		 		 		 EnableTimer400ms(); /*Enable Timer 400ms*/
+
+			 	 	 	 	 ///// Start of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
+			 	 	 	 	 	 EnableTimer400ms(); /*Enable Timer 400ms*/
 		 		 		 		 while (lpit0_ch0_flag_counter<1){} /*Do Nothing*/
 		 		 		 		 DisableTimer400ms(); /*Disable Timer 400ms*/
 		 		 		 		 lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
+		 		 		 	///// End of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 		 		 		 level++; /*Variable that indicate the level of the Window (level++) */
 		 	if(ANTIPINCH) /*Evaluate if the AntiPinch was Activated and if it is a valid press*/
 		 	{
@@ -169,21 +211,36 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 		lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
 		 		EnableTimer100ms(); /*Enable Timer with freq. 100ms*/
 
+		 		///// Start of ID= DSD_09 (ID Traceable to "DSD_Template" file)  ////////////////
 		 		while ( ( (ANTIPINCH) && (lpit0_ch0_flag_counter<1)) ) {} /*Do Nothing*/
 		 		DisableTimer100ms (); /*Enable Timer with freq. 100ms*/
 		 		if(ANTIPINCH)  /*If the AntiPinch still activated*/
+		 		///// End of ID= DSD_09 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 		{
 		 			while(level>=1)  /*While the Window Level>=1 (Because the Window must be fully open by the AntiPinch)*/
 		 					 				 		 {
+
+		 											///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 		 												 PTD-> PSOR |= 1<<PTD0; /* Clear Output on port D0 (LED BLUE off) */
+		 											///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
+
+		 											///// Start of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
 		 												 PTD-> PCOR |= 1<<PTD15; /* Clear Output on port D15 (LED RED on) */
+		 											///// End of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 					 				 			 DisableTimer100ms(); /*Disable Timer with freq. 100ms*/
 		 					 				 			 lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
 		 					 				 			 	 	 	 	 	 Down_Mode_Routine (&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
+
+		 					 				 			 	 	 	 	///// Start of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
 		 					 				 		 		 		 		 EnableTimer400ms(); /*Enable Timer with freq. 400ms*/
 		 					 				 		 		 		 		 while (lpit0_ch0_flag_counter<1){}
 		 					 				 		 		 		 		 DisableTimer400ms(); /*Disable Timer with freq. 400ms*/
 		 					 				 		 		 		 		 lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
+		 					 				 		 		 		 	///// End of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
+
+
 		 					 				 		 		 		 		 level--; /*Variable that indicate the level of the Window (level--) */
 		 					 				 		 }
 
@@ -191,7 +248,11 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 					 				 		 {
 		 					 				 			 pushdown=0; /*Refresh the variable that indicate the working Mode*/
 		 					 				 			 level=0; /*Window Level =0;*/
+
+		 					 				 			///// Start of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
 		 					 				 			PTD-> PSOR |= 1<<PTD15; /* Clear Output on port D15 (LED RED on) */
+		 					 				 			///// End of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 					 				 			pushup=0; /*Refresh the variable that indicate the working Mode*/
 
 		 					 				 		 }
@@ -215,7 +276,10 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 {
 			 level=10; /*Window Level = 10*/
 			 pushup=0; /*Refresh the variable that indicate the working Mode*/
-			 PTD-> PSOR |= 1<<PTD0; /* Set Output on port D0 (LED off) */
+
+			 ///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
+			 PTD-> PSOR |= 1<<PTD0; /* Set Output on port D0 (LED BLUE off) */
+			 ///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 		 }
 	 }
 /////////////////////                                     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -227,15 +291,27 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
 		 while(PUSHUP) /*While the PushButton UP is pressed*/
 		 		 {
+			 ///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 			 	 PTD-> PCOR |= 1<<PTD0; /* Clear Output on port D0 (LED BLUE on) */
+			 ///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 		 Up_Mode_Routine (&level); /*Activate Up mode Routine "Switch-case" (evaluating the level)*/
+
+		 		 	 	 	 	 ///// Start of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
 		 		 		 		 		 EnableTimer400ms(); /*Enable Timer with freq. 400ms*/
 		 		 		 		 		 while (lpit0_ch0_flag_counter<1){} /*Wait to reach 400ms / Do Nothing*/
 		 		 		 		 		 DisableTimer400ms(); /*Disable Timer with freq. 400ms*/
 		 		 		 		 		 lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
+		 		 		 		 ///// End of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
+
+
 		 		 		 		 		 level++; /*Variable that indicate the level of the Window (level++) */
 		 		 }
+
+		 ///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 		 PTD-> PSOR |= 1<<PTD0; /* Clear Output on port D0 (LED BLUE off) */
+		 ///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 if(level>=10) /*If Window Level >= 10 (Fully Open)*/
 		 {
 			 level=10; /*Window Level = 10*/
@@ -253,7 +329,11 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 
 		 				 while(level>=1) /*If Window Level >= 1 (Open above the first level)*/
 		 				 		 {
+
+		 					      ///// Start of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
 		 					 	 	 PTD-> PCOR |= 1<<PTD16; /* Clear Output on port D16 (LED GREEN on) */
+		 					 	 ///// End of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+
 		 				 			 DisableTimer100ms(); /*Disable Timer with freq. 100ms*/
 		 				 			 lpit0_ch0_flag_counter=0; /*Clear Time Counter*/
 		 				 			 	 	 	 	 	 Down_Mode_Routine (&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
@@ -268,7 +348,10 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 				 		 {
 		 				 			 pushdown=0; /*Refresh the variable that indicate the working Mode*/
 		 				 			 level=0; /*Window Level = 0*/
+
+		 				 		///// Start of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
 		 				 			PTD-> PSOR |= 1<<PTD16; /* Set Output on port D16 (LED GREEN off) */
+		 				 		///// End of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
 
 		 				 		 }
 
@@ -278,7 +361,11 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 	 {
 		 	 	 	 	 while(PUSHDOWN)
 		 		 				 		 {
+
+		 	 	 	 		 	 	 	 ///// Start of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
 		 	 	 	 		 	 	 	 	 PTD-> PCOR |= 1<<PTD16; /* Clear Output on port D16 (LED GREEN on) */
+		 	 	 	 		 	 	 	///// End of ID= DSD_07 (ID Traceable to "DSD_Template" file)  //////////////////
+
 		 	 	 	 		 	 	 	 	 if(level !=0) /*If Window Level !=0 (Level above the Close Level)*/
 		 	 	 	 		 	 	 	 	 {
 		 		 				 			 DisableTimer100ms(); /*Disable Timer with freq. 100ms*/
@@ -291,9 +378,12 @@ while ( ( pushup == 0 ) && ( pushdown == 0 )  ) /*While non Mode_Routine is sele
 		 		 				 		 		 		 		 level--; /*Variable that indicate the level of the Window (level--) */
 		 	 	 	 		 	 	 	 	 }
 		 		 				 		 }
-		 	 	 	 	 	 	 	 	 PTD-> PSOR |= 1<<PTD16; /* Set Output on port D16 (LED off) */
 
-		 		 				 		 if(level==0) /*If Window Level 0=0 (Fully Closed)*/
+		 	 	 	 	 	 	 	 ///// Start of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+		 	 	 	 	 	 	 	 	 PTD-> PSOR |= 1<<PTD16; /* Set Output on port D16 (LED off) */
+		 	 	 	 	 	 	 	///// End of ID= DSD_07 (ID Traceable to "DSD_Template" file)  ////////////////
+
+		 		 				 		 if(level==0) /*If Window Level ==0 (Fully Closed)*/
 		 		 				 		 {
 		 		 				 			 pushdown=0; /*Refresh the variable that indicate the working Mode*/
 		 		 				 			 level=0; /*Window Level = 0*/

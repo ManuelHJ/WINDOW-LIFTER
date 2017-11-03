@@ -11,11 +11,7 @@
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/**
 
 	"LEDS_IDLE.c" file from the Window Lifter code.
 
