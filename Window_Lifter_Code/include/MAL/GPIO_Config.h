@@ -4,18 +4,22 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: GPIO_Config.h $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/03/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/** "GPIO_Config.h" file from the Window Lifter code.
+
+    Contains the prototype of the functions of "GPIO_Config.c" file
+
+    PORTA_SET_INPUT(T_ULONG PIN)
+    PORTA_SET_OUTPUT(T_ULONG PIN)
+    PORTA_OUTPUT_HIGH(T_ULONG PIN)
+    PORTA_OUTPUT_LOW(T_ULONG PIN)    
+
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +38,8 @@
 /*============================================================================*/
 /*       AUTHOR        |      VERSION       |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |           to the file           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

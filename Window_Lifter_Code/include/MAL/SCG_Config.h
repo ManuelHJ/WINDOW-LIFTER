@@ -4,18 +4,19 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: SCG_Config.h $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/03/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/** "SCG_Config.h" file from the Window Lifter code.
+
+    Contains the prototypes of the functions of "SCG_Config.c" file
+    SOSC_INIT_8MHZ();
+    SPLL_INIT_160MHZ();
+    NORMAL_RUN_MODE_80MHZ()
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +35,8 @@
 /*============================================================================*/
 /*       AUTHOR        |      VERSION       |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |           to the file           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

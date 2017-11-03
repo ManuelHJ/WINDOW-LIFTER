@@ -4,18 +4,19 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.c $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: TIMERS.c $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/03/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/** "TIMERS.c" file from the Window Lifter code.
+
+    Contains a function ms_TIMER (), used to configure the values of the TIMER
+   
+    TIMER_ENABLE(void)
+    This function enable the Timer
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +35,8 @@
 /*============================================================================*/
 /*  AUTHOR             |       VERSION      |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |           1        |  Template & Description Added   */
+/*                     |                    |           to this file          */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

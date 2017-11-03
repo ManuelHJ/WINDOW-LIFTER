@@ -4,18 +4,17 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: initproyect.h $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/03/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/** "initproyect.h" file from the Window Lifter code.
+
+    Contains the typedefs and definitions used @ "initproyect.c" file
+    
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +33,8 @@
 /*============================================================================*/
 /*       AUTHOR        |      VERSION       |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |           to the file           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/

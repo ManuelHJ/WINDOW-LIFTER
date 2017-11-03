@@ -4,18 +4,32 @@
 /*                        OBJECT SPECIFICATION                                */
 /*============================================================================*/
 /*!
- * $Source: filename.x $
- * $Revision: version $
- * $Author: author $
- * $Date: date $
+ * $Source: Inputs_Outputs.h $
+ * $Revision: 1 $
+ * $Author: Guillermo Hernández $
+ * $Date: 11/03/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
-/** \file
-    short description in one sentence end with dot.
-    detailed
-    multiline
-    description of the file
+/** "Inputs_Outputs.h" file from the Window Lifter code.
+
+    Contains the prototype of the functions of "Inputs_Outputs.c" file
+   enable_PORTA();
+   enable_PORTB();
+   enable_PORTC();
+   enable_PORTD();
+   enable_PORTE();
+
+   set_PORTB_AS(T_ULONG LVL,T_ULONG PIN);
+   set_PORTC_AS(T_ULONG LVL,T_ULONG PIN);
+   set_PORTD_AS(T_ULONG LVL,T_ULONG PIN);
+   set_PORTE_AS(T_ULONG LVL,T_ULONG PIN);
+
+   put_PORTA();
+   put_PORTB_PIN(T_ULONG PIN,T_ULONG LVL);
+   put_PORTC_PIN(T_ULONG PIN,T_ULONG LVL);
+   put_PORTD_PIN(T_ULONG PIN,T_ULONG LVL);
+   put_PORTE_PIN(T_ULONG PIN,T_ULONG LVL);
 */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
@@ -34,7 +48,8 @@
 /*============================================================================*/
 /*       AUTHOR        |      VERSION       |          DESCRIPTION            */
 /*----------------------------------------------------------------------------*/
-/*                     |                    |                                 */
+/* Guillermo Hernández |          1         |  Template & Description Added   */
+/*                     |                    |           to the file           */
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
