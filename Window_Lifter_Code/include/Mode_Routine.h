@@ -5,9 +5,9 @@
 /*============================================================================*/
 /*!
  * $Source: Mode_Routine.h $
- * $Revision: 2 $
+ * $Revision: 3 $
  * $Author: Guillermo Hernández $
- * $Date: 11/02/17 $
+ * $Date: 11/05/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -16,8 +16,8 @@
 
  Contains the prototype of the functions of "Mode_Routine.c" file
 
- Down_Mode_Routine()
- Up_Mode_Routine()
+ DOWN_Mode_Routine()
+ UP_Mode_Routine()
 
  This function is related to the ID:
  DSD_00
@@ -48,6 +48,10 @@
 /*----------------------------------------------------------------------------*/
 /* Guillermo Hernández |           2        |   Add Traceability ID´s         */
 /*                     |                    |          to the code            */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |          3         |    Changes on Functions Names   */
+/*                     |                    |   to create a naming convention */
+/*----------------------------------------------------------------------------*/
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
@@ -66,14 +70,14 @@
 /* Exported Variables */
 /*============================================================================*/
 
-void Down_Mode_Routine(int *window_level);
+void DOWN_Mode_Routine(int *window_level);
 
-void Up_Mode_Routine(int *window_level);
+void UP_Mode_Routine(int *window_level);
 
 /* Exported functions prototypes */
 /*============================================================================*/
-void Down_Mode_Routine(int *window_level);
+void DOWN_Mode_Routine(int *window_level);
 
-void Up_Mode_Routine(int *window_level);
+void UP_Mode_Routine(int *window_level);
 
 #endif  /* Notice: the file ends with a blank new line to avoid compiler warnings */

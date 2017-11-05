@@ -1165,12 +1165,12 @@ LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
  .text.LPIT0_Init
                 0x00000ad0       0x4c ./src/initproyect.o
                 0x00000ad0                LPIT0_Init
- .text.Down_Mode_Routine
+ .text.DOWN_Mode_Routine
                 0x00000b1c       0xe8 ./src/Mode_Routine.o
-                0x00000b1c                Down_Mode_Routine
- .text.Up_Mode_Routine
+                0x00000b1c                DOWN_Mode_Routine
+ .text.UP_Mode_Routine
                 0x00000c04       0xf4 ./src/Mode_Routine.o
-                0x00000c04                Up_Mode_Routine
+                0x00000c04                UP_Mode_Routine
  .text.TIMER400ms_Enable
                 0x00000cf8       0x20 ./src/MAL/time400ms.o
                 0x00000cf8                TIMER400ms_Enable

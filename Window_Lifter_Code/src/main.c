@@ -190,7 +190,7 @@ int main(void) {
 
 				TIMER100ms_Disable(); /*Disable Timer with freq. 100ms*/
 				lpit0_ch0_flag_counter = 0; /*Clear Timer Counter*/
-				Up_Mode_Routine(&level); /*Activate Up mode Routine "Switch-case" (evaluating the level)*/
+				UP_Mode_Routine(&level); /*Activate Up mode Routine "Switch-case" (evaluating the level)*/
 
 				///// Start of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
 				TIMER400ms_Enable(); /*Enable Timer 400ms*/
@@ -227,7 +227,7 @@ int main(void) {
 
 							TIMER100ms_Disable(); /*Disable Timer with freq. 100ms*/
 							lpit0_ch0_flag_counter = 0; /*Clear Time Counter*/
-							Down_Mode_Routine(&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
+							DOWN_Mode_Routine(&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
 
 							///// Start of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
 							TIMER400ms_Enable(); /*Enable Timer with freq. 400ms*/
@@ -291,7 +291,7 @@ int main(void) {
 				PTD->PCOR |= 1 << PTD0; /* Clear Output on port D0 (LED BLUE on) */
 				///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 
-				Up_Mode_Routine(&level); /*Activate Up mode Routine "Switch-case" (evaluating the level)*/
+				UP_Mode_Routine(&level); /*Activate Up mode Routine "Switch-case" (evaluating the level)*/
 
 				///// Start of ID= DSD_05 (ID Traceable to "DSD_Template" file)  ////////////////
 				TIMER400ms_Enable(); /*Enable Timer with freq. 400ms*/
@@ -330,7 +330,7 @@ int main(void) {
 
 				TIMER100ms_Disable(); /*Disable Timer with freq. 100ms*/
 				lpit0_ch0_flag_counter = 0; /*Clear Time Counter*/
-				Down_Mode_Routine(&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
+				DOWN_Mode_Routine(&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
 				TIMER400ms_Enable(); /*Enable Timer with freq. 400ms*/
 				while (lpit0_ch0_flag_counter < 1) {
 				}
@@ -364,7 +364,7 @@ int main(void) {
 				{
 					TIMER100ms_Disable(); /*Disable Timer with freq. 100ms*/
 					lpit0_ch0_flag_counter = 0; /*Clear Time Counter*/
-					Down_Mode_Routine(&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
+					DOWN_Mode_Routine(&level); /*Activate Down Mode Routine "Switch-case" (evaluating the level)*/
 					TIMER400ms_Enable(); /*Enable Timer with freq. 400ms*/
 					while (lpit0_ch0_flag_counter < 1) {
 					}
