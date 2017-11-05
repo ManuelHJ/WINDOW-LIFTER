@@ -12,20 +12,20 @@
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
 /**
-    "Mode_Routine.h" file from the Window Lifter code.
+ "Mode_Routine.h" file from the Window Lifter code.
 
-    Contains the prototype of the functions of "Mode_Routine.c" file
+ Contains the prototype of the functions of "Mode_Routine.c" file
 
-    Down_Mode_Routine()
-    Up_Mode_Routine()
+ Down_Mode_Routine()
+ Up_Mode_Routine()
 
-    This function is related to the ID:
-  	   DSD_00
-  	   DSD_23
-  	   DSD_24
-      (ID Traceable to "DSD_Template" file)
+ This function is related to the ID:
+ DSD_00
+ DSD_23
+ DSD_24
+ (ID Traceable to "DSD_Template" file)
 
-*/
+ */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
 /* AUTOMOTIVE GROUP, Interior Division, Body and Security                     */
@@ -53,29 +53,27 @@
 /*============================================================================*/
 /*
  * $Log: filename.h  $
-  ============================================================================*/
+ ============================================================================*/
 #ifndef MODE_ROUTINE_H
 #define MODE_ROUTINE_H
 
 /* Includes */
 /*============================================================================*/
 
-
 /* Constants and types */
 /*============================================================================*/
-
 
 /* Exported Variables */
 /*============================================================================*/
 
-void Down_Mode_Routine (int *window_level);
+void Down_Mode_Routine(int *window_level);
 
-void Up_Mode_Routine (int *window_level);
+void Up_Mode_Routine(int *window_level);
 
 /* Exported functions prototypes */
 /*============================================================================*/
-void Down_Mode_Routine (int *window_level);
+void Down_Mode_Routine(int *window_level);
 
-void Up_Mode_Routine (int *window_level);
+void Up_Mode_Routine(int *window_level);
 
 #endif  /* Notice: the file ends with a blank new line to avoid compiler warnings */

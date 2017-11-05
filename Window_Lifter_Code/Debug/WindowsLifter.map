@@ -1147,42 +1147,42 @@ LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
  .text.LPIT0_Ch0_IRQHandler
                 0x0000084c       0x2c ./src/main.o
                 0x0000084c                LPIT0_Ch0_IRQHandler
- .text.EnablePCC
+ .text.PCC_Enable
                 0x00000878       0x44 ./src/initproyect.o
-                0x00000878                EnablePCC
+                0x00000878                PCC_Enable
  .text.NVIC_init_IRQs
                 0x000008bc       0x2c ./src/initproyect.o
                 0x000008bc                NVIC_init_IRQs
- .text.WindowInit
+ .text.WINDOW_Init
                 0x000008e8      0x128 ./src/initproyect.o
-                0x000008e8                WindowInit
- .text.IndicatorsInit
+                0x000008e8                WINDOW_Init
+ .text.INDICATORS_Init
                 0x00000a10       0x68 ./src/initproyect.o
-                0x00000a10                IndicatorsInit
- .text.ButtonsInit
+                0x00000a10                INDICATORS_Init
+ .text.BUTTONS_Init
                 0x00000a78       0x58 ./src/initproyect.o
-                0x00000a78                ButtonsInit
- .text.LPIT0_init
+                0x00000a78                BUTTONS_Init
+ .text.LPIT0_Init
                 0x00000ad0       0x4c ./src/initproyect.o
-                0x00000ad0                LPIT0_init
+                0x00000ad0                LPIT0_Init
  .text.Down_Mode_Routine
                 0x00000b1c       0xe8 ./src/Mode_Routine.o
                 0x00000b1c                Down_Mode_Routine
  .text.Up_Mode_Routine
                 0x00000c04       0xf4 ./src/Mode_Routine.o
                 0x00000c04                Up_Mode_Routine
- .text.EnableTimer400ms
+ .text.TIMER400ms_Enable
                 0x00000cf8       0x20 ./src/MAL/time400ms.o
-                0x00000cf8                EnableTimer400ms
- .text.DisableTimer400ms
+                0x00000cf8                TIMER400ms_Enable
+ .text.TIMER400ms_Disable
                 0x00000d18       0x18 ./src/MAL/time400ms.o
-                0x00000d18                DisableTimer400ms
- .text.EnableTimer100ms
+                0x00000d18                TIMER400ms_Disable
+ .text.TIMER100ms_Enable
                 0x00000d30       0x20 ./src/MAL/time100ms.o
-                0x00000d30                EnableTimer100ms
- .text.DisableTimer100ms
+                0x00000d30                TIMER100ms_Enable
+ .text.TIMER100ms_Disable
                 0x00000d50       0x18 ./src/MAL/time100ms.o
-                0x00000d50                DisableTimer100ms
+                0x00000d50                TIMER100ms_Disable
  .text.DISABLE_WDOG
                 0x00000d68       0x2c ./src/MAL/WDOG_Config.o
                 0x00000d68                DISABLE_WDOG
@@ -1195,12 +1195,12 @@ LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
  .text.NORMAL_RUN_MODE_80MHZ
                 0x00000e44       0x2c ./src/MAL/SCG_Config.o
                 0x00000e44                NORMAL_RUN_MODE_80MHZ
- .text.LEDS_IDLE
+ .text.LEDS_Idle
                 0x00000e70       0xdc ./src/MAL/LEDS_IDLE.o
-                0x00000e70                LEDS_IDLE
- .text.WDOG_DISABLE
+                0x00000e70                LEDS_Idle
+ .text.WDOG_Disable
                 0x00000f4c        0xc ./src/HAL/WDOG.o
-                0x00000f4c                WDOG_DISABLE
+                0x00000f4c                WDOG_Disable
  .text.FREQ_Config
                 0x00000f58       0x14 ./src/HAL/CLOCKS.o
                 0x00000f58                FREQ_Config
@@ -1502,45 +1502,45 @@ OUTPUT(WindowsLifter.elf elf32-littlearm)
  .debug_macro   0x000102f4       0x22 ./Project_Settings/Startup_Code/system_S32K144.o
  .debug_macro   0x00010316       0xea ./Project_Settings/Startup_Code/startup.o
 
-.debug_line     0x00000000     0x1e0a
- .debug_line    0x00000000      0x467 ./src/main.o
- .debug_line    0x00000467      0x27d ./src/initproyect.o
- .debug_line    0x000006e4      0x28d ./src/Mode_Routine.o
- .debug_line    0x00000971      0x204 ./src/MAL/time400ms.o
- .debug_line    0x00000b75      0x204 ./src/MAL/time100ms.o
- .debug_line    0x00000d79      0x208 ./src/MAL/WDOG_Config.o
- .debug_line    0x00000f81      0x25d ./src/MAL/SCG_Config.o
- .debug_line    0x000011de      0x245 ./src/MAL/LEDS_IDLE.o
- .debug_line    0x00001423      0x23d ./src/HAL/WDOG.o
- .debug_line    0x00001660      0x242 ./src/HAL/CLOCKS.o
- .debug_line    0x000018a2      0x290 ./Project_Settings/Startup_Code/system_S32K144.o
- .debug_line    0x00001b32       0x83 ./Project_Settings/Startup_Code/startup_S32K144.o
- .debug_line    0x00001bb5      0x255 ./Project_Settings/Startup_Code/startup.o
+.debug_line     0x00000000     0x1dfc
+ .debug_line    0x00000000      0x459 ./src/main.o
+ .debug_line    0x00000459      0x27d ./src/initproyect.o
+ .debug_line    0x000006d6      0x28d ./src/Mode_Routine.o
+ .debug_line    0x00000963      0x204 ./src/MAL/time400ms.o
+ .debug_line    0x00000b67      0x204 ./src/MAL/time100ms.o
+ .debug_line    0x00000d6b      0x208 ./src/MAL/WDOG_Config.o
+ .debug_line    0x00000f73      0x25d ./src/MAL/SCG_Config.o
+ .debug_line    0x000011d0      0x245 ./src/MAL/LEDS_IDLE.o
+ .debug_line    0x00001415      0x23d ./src/HAL/WDOG.o
+ .debug_line    0x00001652      0x242 ./src/HAL/CLOCKS.o
+ .debug_line    0x00001894      0x290 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_line    0x00001b24       0x83 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_line    0x00001ba7      0x255 ./Project_Settings/Startup_Code/startup.o
 
-.debug_str      0x00000000    0x62b39
- .debug_str     0x00000000    0x5df2e ./src/main.o
-                              0x5dfc4 (size before relaxing)
- .debug_str     0x0005df2e       0xfa ./src/initproyect.o
-                              0x5deaf (size before relaxing)
- .debug_str     0x0005e028       0x45 ./src/Mode_Routine.o
-                              0x5dde2 (size before relaxing)
- .debug_str     0x0005e06d       0x3a ./src/MAL/time400ms.o
-                              0x5dcb9 (size before relaxing)
- .debug_str     0x0005e0a7       0x3a ./src/MAL/time100ms.o
-                              0x5dcb9 (size before relaxing)
- .debug_str     0x0005e0e1       0x36 ./src/MAL/WDOG_Config.o
+.debug_str      0x00000000    0x62b50
+ .debug_str     0x00000000    0x5df3d ./src/main.o
+                              0x5dfd3 (size before relaxing)
+ .debug_str     0x0005df3d       0xfe ./src/initproyect.o
+                              0x5dec2 (size before relaxing)
+ .debug_str     0x0005e03b       0x45 ./src/Mode_Routine.o
+                              0x5ddf1 (size before relaxing)
+ .debug_str     0x0005e080       0x3c ./src/MAL/time400ms.o
+                              0x5dcbb (size before relaxing)
+ .debug_str     0x0005e0bc       0x3c ./src/MAL/time100ms.o
+                              0x5dcbb (size before relaxing)
+ .debug_str     0x0005e0f8       0x36 ./src/MAL/WDOG_Config.o
                               0x5dc94 (size before relaxing)
- .debug_str     0x0005e117       0xd1 ./src/MAL/SCG_Config.o
+ .debug_str     0x0005e12e       0xd1 ./src/MAL/SCG_Config.o
                               0x5dd79 (size before relaxing)
- .debug_str     0x0005e1e8       0x21 ./src/MAL/LEDS_IDLE.o
-                              0x5dd97 (size before relaxing)
- .debug_str     0x0005e209       0x1f ./src/HAL/WDOG.o
+ .debug_str     0x0005e1ff       0x21 ./src/MAL/LEDS_IDLE.o
+                              0x5dda6 (size before relaxing)
+ .debug_str     0x0005e220       0x1f ./src/HAL/WDOG.o
                               0x5dc81 (size before relaxing)
- .debug_str     0x0005e228       0x20 ./src/HAL/CLOCKS.o
+ .debug_str     0x0005e23f       0x20 ./src/HAL/CLOCKS.o
                               0x5dc83 (size before relaxing)
- .debug_str     0x0005e248     0x47d1 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_str     0x0005e25f     0x47d1 ./Project_Settings/Startup_Code/system_S32K144.o
                               0x624e0 (size before relaxing)
- .debug_str     0x00062a19      0x120 ./Project_Settings/Startup_Code/startup.o
+ .debug_str     0x00062a30      0x120 ./Project_Settings/Startup_Code/startup.o
                               0x62417 (size before relaxing)
 
 .comment        0x00000000       0x70

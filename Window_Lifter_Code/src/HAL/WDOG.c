@@ -5,21 +5,21 @@
 /*============================================================================*/
 /*!
  * $Source: WDOG.c $
- * $Revision: 1 $
+ * $Revision: 2 $
  * $Author: Guillermo Hernández $
- * $Date:  11/01/17
+ * $Date:  11/05/17
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
 /**
 
-    "WDOG.c" file from the Window Lifter code.
+ "WDOG.c" file from the Window Lifter code.
 
-    Contains a function WDOG_DISABLE () , who calls the function "Disable_WDOG",
-    which is located inside the MAL layer ("WDOG_Config.c" file)
+ Contains a function WDOG_DISABLE () , who calls the function "Disable_WDOG",
+ which is located inside the MAL layer ("WDOG_Config.c" file)
 
-    This function set the default values to the WhatchDog (Disable)
-*/
+ This function set the default values to the WhatchDog (Disable)
+ */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
 /* AUTOMOTIVE GROUP, Interior Division, Body and Security                     */
@@ -39,12 +39,16 @@
 /*----------------------------------------------------------------------------*/
 /* Guillermo Hernández |           1        |  Template & Description Added   */
 /*                     |                    |          to this file           */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |           2        |    Changes on Functions Names   */
+/*                     |                    |   to create a naming convention */
+/*----------------------------------------------------------------------------*/
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
  * $Log: filename.c  $
-  ============================================================================*/
+ ============================================================================*/
 
 /* Includes */
 /*============================================================================*/
@@ -54,23 +58,14 @@
 /* Constants and types  */
 /*============================================================================*/
 
-
-
 /* Variables */
 /*============================================================================*/
-
-
 
 /* Private functions prototypes */
 /*============================================================================*/
 
-
-
 /* Inline functions */
 /*============================================================================*/
-
-
-
 
 /* Private functions */
 /*============================================================================*/
@@ -81,15 +76,13 @@
  This function checks if the limitation algorithm allows or not
  a certain activation of the motors.
  \returns TRUE if the activation is allowed, FALSE if not
-*/
-
-
+ */
 
 /* Exported functions */
 /*============================================================================*/
 
-void WDOG_DISABLE(){
+void WDOG_Disable() {
 	DISABLE_WDOG();
 }
 
- /* Notice: the file ends with a blank new line to avoid compiler warnings */
+/* Notice: the file ends with a blank new line to avoid compiler warnings */

@@ -13,15 +13,15 @@
 /* DESCRIPTION :                                                              */
 /**
 
-    "CLOCKS.c" file from the Window Lifter code.
+ "CLOCKS.c" file from the Window Lifter code.
 
-    Contains a function FREQ_Config () ,who calls the functions "SOSC_INIT_8MHZ",
-    "SPLL_INIT_160MHZ" and "NORMAL_RUN_MODE_80MHZ"
-    This are located inside the MAL layer ("SCG_Config.c" file)
+ Contains a function FREQ_Config () ,who calls the functions "SOSC_INIT_8MHZ",
+ "SPLL_INIT_160MHZ" and "NORMAL_RUN_MODE_80MHZ"
+ This are located inside the MAL layer ("SCG_Config.c" file)
 
-    This function set the default values to the Timer (Disable)
+ This function set the default values to the Timer (Disable)
 
-*/
+ */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
 /* AUTOMOTIVE GROUP, Interior Division, Body and Security                     */
@@ -46,7 +46,7 @@
 /*============================================================================*/
 /*
  * $Log: filename.c  $
-  ============================================================================*/
+ ============================================================================*/
 
 /* Includes */
 /*============================================================================*/
@@ -56,23 +56,14 @@
 /* Constants and types  */
 /*============================================================================*/
 
-
-
 /* Variables */
 /*============================================================================*/
-
-
 
 /* Private functions prototypes */
 /*============================================================================*/
 
-
-
 /* Inline functions */
 /*============================================================================*/
-
-
-
 
 /* Private functions */
 /*============================================================================*/
@@ -83,17 +74,15 @@
  This function checks if the limitation algorithm allows or not
  a certain activation of the motors.
  \returns TRUE if the activation is allowed, FALSE if not
-*/
-
-
+ */
 
 /* Exported functions */
 /*============================================================================*/
 
-void FREQ_Config(){
+void FREQ_Config() {
 	SOSC_INIT_8MHZ();
 	SPLL_INIT_160MHZ();
 	NORMAL_RUN_MODE_80MHZ();
 }
 
- /* Notice: the file ends with a blank new line to avoid compiler warnings */
+/* Notice: the file ends with a blank new line to avoid compiler warnings */

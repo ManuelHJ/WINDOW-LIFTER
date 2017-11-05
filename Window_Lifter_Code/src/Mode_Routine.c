@@ -15,26 +15,26 @@
 
  "Mode_Routine.c" file from the Window Lifter Code
 
-  Contains the functions that emulate the Window behavior(LED´s Routines):
+ Contains the functions that emulate the Window behavior(LED´s Routines):
 
-  Down_Mode_Routine() :
-  Switch-Case structure that Evaluate a variable "*window_level", to enter to
-  a specific case.
-  Actions inside the cases: Seat an specific Output (Turn Off an specific LED)
-  Actions inside the default cases: Do Nothing
+ Down_Mode_Routine() :
+ Switch-Case structure that Evaluate a variable "*window_level", to enter to
+ a specific case.
+ Actions inside the cases: Seat an specific Output (Turn Off an specific LED)
+ Actions inside the default cases: Do Nothing
 
-  Up_Mode_Routine() :
-  Switch-Case structure that Evaluate a variable "*window_level", to enter to
-  	  a specific case.
-  Actions inside the cases: Clear an specific Output (Turn On an specific LED)
-  Actions inside the default cases: Set the variable "*window Level" == 10
-  	  to avoid changes on the states (Maintain the window fully open)
+ Up_Mode_Routine() :
+ Switch-Case structure that Evaluate a variable "*window_level", to enter to
+ a specific case.
+ Actions inside the cases: Clear an specific Output (Turn On an specific LED)
+ Actions inside the default cases: Set the variable "*window Level" == 10
+ to avoid changes on the states (Maintain the window fully open)
 
-  	  This function is related to the ID:
-  	   DSD_00
-  	   DSD_23
-  	   DSD_24
-      (ID Traceable to "DSD_Template" file)
+ This function is related to the ID:
+ DSD_00
+ DSD_23
+ DSD_24
+ (ID Traceable to "DSD_Template" file)
 
 
 
