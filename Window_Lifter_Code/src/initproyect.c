@@ -117,11 +117,13 @@ void PCC_Enable(void) {
 }
 ///// End of ID= DSD_29 (ID Traceable to "DSD_Template" file)  ////////////////
 
+///// Function Created by the Compiler (No ID) ///////////////////////////////////////////
 void NVIC_init_IRQs(void) {
 	S32_NVIC->ICPR[1] = 1 << (48 % 32); /* IRQ48-LPIT0 ch0: clr any pending IRQ*/
 	S32_NVIC->ISER[1] = 1 << (48 % 32); /* IRQ48-LPIT0 ch0: enable IRQ */
 	S32_NVIC->IP[48] = 0x0A; /* IRQ48-LPIT0 ch0: priority 10 of 0-15*/
 }
+///// Function Created by the Compiler (No ID) ///////////////////////////////////////////
 
 ///// Start of ID= DSD_04, DSD_30 (ID Traceable to "DSD_Template" file)  ////////////////
 
