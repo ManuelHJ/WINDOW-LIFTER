@@ -5,9 +5,9 @@
 /*============================================================================*/
 /*!
  * $Source: initproyect.h $
- * $Revision: 1 $
+ * $Revision: 2 $
  * $Author: Guillermo Hernández $
- * $Date: 11/03/17 $
+ * $Date: 11/05/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -35,6 +35,10 @@
 /*----------------------------------------------------------------------------*/
 /* Guillermo Hernández |          1         |  Template & Description Added   */
 /*                     |                    |           to the file           */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |          2         |    Changes on Functions Names   */
+/*                     |                    |   to create a naming convention */
+/*----------------------------------------------------------------------------*/
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
@@ -74,9 +78,9 @@
 #define PTC12 12 /* Port PTC12, bit 12:  BTN0 [SW0] */
 #define PTC13 13 /* Port PTC13, bit 13:  BTN1 [SW1] */
 
-#define PUSHUP (PTC->PDIR & (1<<PTC12))
-#define PUSHDOWN (PTC->PDIR & (1<<PTC13))
-#define ANTIPINCH (PTD->PDIR & (1<<PTD7))
+#define PUSHUP_Read (PTC->PDIR & (1<<PTC12))
+#define PUSHDOWN_Read (PTC->PDIR & (1<<PTC13))
+#define ANTIPINCH_Read (PTD->PDIR & (1<<PTD7))
 
 /* Exported Variables */
 /*============================================================================*/
@@ -86,10 +90,10 @@
 /*============================================================================*/
 
 void NVIC_init_IRQs (void);
-void LPIT0_init (void);
-void WindowInit (void);
-void IndicatorsInit (void);
-void EnablePCC (void);
-void ButtonsInit (void);
+void LPIT0_Init (void);
+void WINDOW_Init (void);
+void INDICATORS_Init (void);
+void PCC_Enable (void);
+void BUTTONS_Init (void);
 
 #endif  /* Notice: the file ends with a blank new line to avoid compiler warnings */

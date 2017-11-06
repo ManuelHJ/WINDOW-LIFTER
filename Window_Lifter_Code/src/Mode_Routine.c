@@ -5,9 +5,9 @@
 /*============================================================================*/
 /*!
  * $Source: Mode_Routine.c $
- * $Revision: version 2 $
+ * $Revision: version 3 $
  * $Author: Guillermo Herández $
- * $Date: 11/02/17 $
+ * $Date: 11/05/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
@@ -15,26 +15,26 @@
 
  "Mode_Routine.c" file from the Window Lifter Code
 
-  Contains the functions that emulate the Window behavior(LED´s Routines):
+ Contains the functions that emulate the Window behavior(LED´s Routines):
 
-  Down_Mode_Routine() :
-  Switch-Case structure that Evaluate a variable "*window_level", to enter to
-  a specific case.
-  Actions inside the cases: Seat an specific Output (Turn Off an specific LED)
-  Actions inside the default cases: Do Nothing
+ Down_Mode_Routine() :
+ Switch-Case structure that Evaluate a variable "*window_level", to enter to
+ a specific case.
+ Actions inside the cases: Seat an specific Output (Turn Off an specific LED)
+ Actions inside the default cases: Do Nothing
 
-  Up_Mode_Routine() :
-  Switch-Case structure that Evaluate a variable "*window_level", to enter to
-  	  a specific case.
-  Actions inside the cases: Clear an specific Output (Turn On an specific LED)
-  Actions inside the default cases: Set the variable "*window Level" == 10
-  	  to avoid changes on the states (Maintain the window fully open)
+ Up_Mode_Routine() :
+ Switch-Case structure that Evaluate a variable "*window_level", to enter to
+ a specific case.
+ Actions inside the cases: Clear an specific Output (Turn On an specific LED)
+ Actions inside the default cases: Set the variable "*window Level" == 10
+ to avoid changes on the states (Maintain the window fully open)
 
-  	  This function is related to the ID:
-  	   DSD_00
-  	   DSD_23
-  	   DSD_24
-      (ID Traceable to "DSD_Template" file)
+ This function is related to the ID:
+ DSD_00
+ DSD_23
+ DSD_24
+ (ID Traceable to "DSD_Template" file)
 
 
 
@@ -61,6 +61,10 @@
 /*----------------------------------------------------------------------------*/
 /* Guillermo Hernández |           2        |   Add Traceability ID´s         */
 /*                     |                    |          to the code            */
+/*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |          3         |    Changes on Functions Names   */
+/*                     |                    |   to create a naming convention */
+/*----------------------------------------------------------------------------*/
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
@@ -102,7 +106,7 @@
 /* Exported functions */
 /*============================================================================*/
 
-void Down_Mode_Routine(int *window_level)
+void DOWN_Mode_Routine(int *window_level)
 
 {
 	switch ((*window_level))
@@ -148,7 +152,7 @@ void Down_Mode_Routine(int *window_level)
 
 }
 
-void Up_Mode_Routine(int *window_level) {
+void UP_Mode_Routine(int *window_level) {
 	switch ((*window_level)) {
 	case 0:
 		//PTD-> PCOR |= 1<<PTD0; /* Clear Output on port D0 (LED on) */

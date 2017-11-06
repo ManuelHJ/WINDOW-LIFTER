@@ -5,42 +5,42 @@
 /*============================================================================*/
 /*!
  * $Source: initproyect.c $
- * $Revision: version 2 $
+ * $Revision: version 3 $
  * $Author: Guillermo Hernández $
- * $Date: 11/02/17 $
+ * $Date: 11/05/17 $
  */
 /*============================================================================*/
 /* DESCRIPTION :                                                              */
 /**
-    "initproyect.c" file from the Window Lifter code.
+ "initproyect.c" file from the Window Lifter code.
 
-    Contains the functions to Enable/Configure:
+ Contains the functions to Enable/Configure:
 
-    Enable PCC(): Configure/Enable Clocks to Ports (A,B,C,D,E)
-    NVIC_init_IRQs(): Configure/Enable INterrupts for Timer
-    WindowInit(): Configure Ports as GPIO/Outputs(use them as outputs
-    			  for the LED´s)
-    IndicatorsInit(): Configure Ports configure ports as GPIO/Outputs
-                      (use them as outputs for the Indicators LED´s)
-    ButtonsInit(): Configure Ports configure ports as GPIO with Filter/Inputs
-                   (use them as inputs for the Indicators LED´s)
-    LPIT0_init(): Configure Timer ( Timer channel 0. Freq. Configure as 100ms
-                  (/1 second==40000000 -> 100ms==4000000) )
+ Enable PCC(): Configure/Enable Clocks to Ports (A,B,C,D,E)
+ NVIC_init_IRQs(): Configure/Enable INterrupts for Timer
+ WindowInit(): Configure Ports as GPIO/Outputs(use them as outputs
+ for the LED´s)
+ IndicatorsInit(): Configure Ports configure ports as GPIO/Outputs
+ (use them as outputs for the Indicators LED´s)
+ ButtonsInit(): Configure Ports configure ports as GPIO with Filter/Inputs
+ (use them as inputs for the Indicators LED´s)
+ LPIT0_init(): Configure Timer ( Timer channel 0. Freq. Configure as 100ms
+ (/1 second==40000000 -> 100ms==4000000) )
 
-    This function is related to the ID:
-  	   DSD_01
-  	   DSD_02
-  	   DSD_04
-  	   DSD_06
-  	   DSD_07
-  	   DSD_29
-  	   DSD_30
-  	   DSD_31
-  	   DSD_32
-  	   DSD_33
-      (ID Traceable to "DSD_Template" file)
+ This function is related to the ID:
+ DSD_01
+ DSD_02
+ DSD_04
+ DSD_06
+ DSD_07
+ DSD_29
+ DSD_30
+ DSD_31
+ DSD_32
+ DSD_33
+ (ID Traceable to "DSD_Template" file)
 
-*/
+ */
 /*============================================================================*/
 /* COPYRIGHT (C) CONTINENTAL AUTOMOTIVE 2014                                  */
 /* AUTOMOTIVE GROUP, Interior Division, Body and Security                     */
@@ -64,12 +64,15 @@
 /* Guillermo Hernández |          2         |      Add Traceability ID´s      */
 /*                     |                    |           to the code           */
 /*----------------------------------------------------------------------------*/
+/* Guillermo Hernández |          3         |    Changes on Functions Names   */
+/*                     |                    |   to create a naming convention */
+/*----------------------------------------------------------------------------*/
 /*============================================================================*/
 /*                               OBJECT HISTORY                               */
 /*============================================================================*/
 /*
  * $Log: initproyect.c  $
-  ============================================================================*/
+ ============================================================================*/
 
 /* Includes */
 /*============================================================================*/
@@ -80,23 +83,14 @@
 /* Constants and types  */
 /*============================================================================*/
 
-
-
 /* Variables */
 /*============================================================================*/
-
-
 
 /* Private functions prototypes */
 /*============================================================================*/
 
-
-
 /* Inline functions */
 /*============================================================================*/
-
-
-
 
 /* Private functions */
 /*============================================================================*/
@@ -107,16 +101,13 @@
  This function checks if the limitation algorithm allows or not
  a certain activation of the motors.
  \returns TRUE if the activation is allowed, FALSE if not
-*/
-
-
+ */
 
 /* Exported functions */
 /*============================================================================*/
 
-
 ///// Start of ID= DSD_29 (ID Traceable to "DSD_Template" file)  ////////////////
-void EnablePCC(void) {
+void PCC_Enable(void) {
 
 	PCC->PCCn[PCC_PORTA_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT A */
 	PCC->PCCn[PCC_PORTB_INDEX] = PCC_PCCn_CGC_MASK; /* Enable clock for PORT B */
@@ -126,17 +117,17 @@ void EnablePCC(void) {
 }
 ///// End of ID= DSD_29 (ID Traceable to "DSD_Template" file)  ////////////////
 
-
+///// Function Created by the Compiler (No ID) ///////////////////////////////////////////
 void NVIC_init_IRQs(void) {
 	S32_NVIC->ICPR[1] = 1 << (48 % 32); /* IRQ48-LPIT0 ch0: clr any pending IRQ*/
 	S32_NVIC->ISER[1] = 1 << (48 % 32); /* IRQ48-LPIT0 ch0: enable IRQ */
 	S32_NVIC->IP[48] = 0x0A; /* IRQ48-LPIT0 ch0: priority 10 of 0-15*/
 }
-
+///// Function Created by the Compiler (No ID) ///////////////////////////////////////////
 
 ///// Start of ID= DSD_04, DSD_30 (ID Traceable to "DSD_Template" file)  ////////////////
 
-void WindowInit(void) {
+void WINDOW_Init(void) {
 
 	PTB->PDDR |= 1 << PTB17; /* Port B17: Data Direction= output */
 	PTB->PDDR |= 1 << PTB14; /* Port B14: Data Direction= output */
@@ -172,10 +163,9 @@ void WindowInit(void) {
 
 ///// End of ID= DSD_04, DSD_30 (ID Traceable to "DSD_Template" file)  /////////////////
 
-
 ///// Start of ID= DSD_06,DSD_07,DSD_31 (ID Traceable to "DSD_Template" file)  ////////////////
 
-void IndicatorsInit(void) {
+void INDICATORS_Init(void) {
 	///// Start of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
 	PTD->PDDR |= 1 << PTD0; /* Port D0: Data Direction= output */
 	///// End of ID= DSD_06 (ID Traceable to "DSD_Template" file)  ////////////////
@@ -202,10 +192,9 @@ void IndicatorsInit(void) {
 
 ///// End of ID= DSD_06,DSD_07,DSD_31 (ID Traceable to "DSD_Template" file)  ////////////////
 
-
 ///// Start of ID= DSD_32 (ID Traceable to "DSD_Template" file)  ////////////////
 
-void ButtonsInit(void) {
+void BUTTONS_Init(void) {
 
 ///// Start of ID= DSD_01 (ID Traceable to "DSD_Template" file)  //////////////////////
 
@@ -232,11 +221,9 @@ void ButtonsInit(void) {
 
 ///// End of ID= DSD_32 (ID Traceable to "DSD_Template" file)  ////////////////
 
-
-
 ///// Start of ID= DSD_33 (ID Traceable to "DSD_Template" file)  ////////////////
 
-void LPIT0_init(void) {
+void LPIT0_Init(void) {
 	PCC->PCCn[PCC_LPIT_INDEX] = PCC_PCCn_PCS(6); /* Clock Src = 6 (SPLL2_DIV2_CLK)*/
 	PCC->PCCn[PCC_LPIT_INDEX] |= PCC_PCCn_CGC_MASK; /* Enable clk to LPIT0 regs */
 	LPIT0->MCR = 0x00000001; /* DBG_EN-0: Timer chans stop in Debug mode */
